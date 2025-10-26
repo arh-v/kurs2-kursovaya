@@ -1,5 +1,5 @@
 ﻿
-namespace WindowsFormsApp1
+namespace BuildingStatePredictionApp
 {
     partial class Form1
     {
@@ -29,1771 +29,1992 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer5 = new System.Windows.Forms.SplitContainer();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.splitContainer6 = new System.Windows.Forms.SplitContainer();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.splitContainer7 = new System.Windows.Forms.SplitContainer();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.chart4 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.splitContainer9 = new System.Windows.Forms.SplitContainer();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.listBox_lvl3_2 = new System.Windows.Forms.ListBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.splitContainer10 = new System.Windows.Forms.SplitContainer();
-            this.dataGridView_lvl3_1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView_lvl3_2 = new System.Windows.Forms.DataGridView();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.splitContainer11 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer13 = new System.Windows.Forms.SplitContainer();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.chart5 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.chart6 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.splitContainer12 = new System.Windows.Forms.SplitContainer();
-            this.dataGridView_lvl3_3 = new System.Windows.Forms.DataGridView();
-            this.dataGridView_lvl3_4 = new System.Windows.Forms.DataGridView();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.splitContainer8 = new System.Windows.Forms.SplitContainer();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.chart_lvl4 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.Panel1.SuspendLayout();
-            this.splitContainer4.Panel2.SuspendLayout();
-            this.splitContainer4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
-            this.splitContainer5.Panel1.SuspendLayout();
-            this.splitContainer5.Panel2.SuspendLayout();
-            this.splitContainer5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer6)).BeginInit();
-            this.splitContainer6.Panel1.SuspendLayout();
-            this.splitContainer6.Panel2.SuspendLayout();
-            this.splitContainer6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).BeginInit();
-            this.splitContainer7.Panel1.SuspendLayout();
-            this.splitContainer7.Panel2.SuspendLayout();
-            this.splitContainer7.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            this.tabControl2.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer9)).BeginInit();
-            this.splitContainer9.Panel1.SuspendLayout();
-            this.splitContainer9.Panel2.SuspendLayout();
-            this.splitContainer9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer10)).BeginInit();
-            this.splitContainer10.Panel1.SuspendLayout();
-            this.splitContainer10.Panel2.SuspendLayout();
-            this.splitContainer10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_2)).BeginInit();
-            this.tabPage7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).BeginInit();
-            this.splitContainer11.Panel1.SuspendLayout();
-            this.splitContainer11.Panel2.SuspendLayout();
-            this.splitContainer11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer13)).BeginInit();
-            this.splitContainer13.Panel1.SuspendLayout();
-            this.splitContainer13.Panel2.SuspendLayout();
-            this.splitContainer13.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart5)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer12)).BeginInit();
-            this.splitContainer12.Panel1.SuspendLayout();
-            this.splitContainer12.Panel2.SuspendLayout();
-            this.splitContainer12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_4)).BeginInit();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).BeginInit();
-            this.splitContainer8.Panel1.SuspendLayout();
-            this.splitContainer8.Panel2.SuspendLayout();
-            this.splitContainer8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_lvl4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            this.statusStrip1.SuspendLayout();
-            this.SuspendLayout();
+            tabControl1 = new System.Windows.Forms.TabControl();
+            tabPage1 = new System.Windows.Forms.TabPage();
+            splitContainer1 = new System.Windows.Forms.SplitContainer();
+            label3 = new System.Windows.Forms.Label();
+            TablesComboBox = new System.Windows.Forms.ComboBox();
+            RemoveLineButton = new System.Windows.Forms.Button();
+            AddLineButton = new System.Windows.Forms.Button();
+            AccuracyTextBox = new System.Windows.Forms.TextBox();
+            ConnectDbButton = new System.Windows.Forms.Button();
+            label1 = new System.Windows.Forms.Label();
+            ApplyButton = new System.Windows.Forms.Button();
+            label2 = new System.Windows.Forms.Label();
+            InitialPictureBox = new System.Windows.Forms.PictureBox();
+            SmoothingFactorTextBox = new System.Windows.Forms.TextBox();
+            InitialDataGridView = new System.Windows.Forms.DataGridView();
+            tabPage2 = new System.Windows.Forms.TabPage();
+            splitContainer2 = new System.Windows.Forms.SplitContainer();
+            splitContainer3 = new System.Windows.Forms.SplitContainer();
+            groupBox1 = new System.Windows.Forms.GroupBox();
+            checkBox4 = new System.Windows.Forms.CheckBox();
+            checkBox9 = new System.Windows.Forms.CheckBox();
+            checkBox5 = new System.Windows.Forms.CheckBox();
+            checkBox8 = new System.Windows.Forms.CheckBox();
+            checkBox6 = new System.Windows.Forms.CheckBox();
+            checkBox7 = new System.Windows.Forms.CheckBox();
+            LevelOneAmChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            groupBox2 = new System.Windows.Forms.GroupBox();
+            checkBox10 = new System.Windows.Forms.CheckBox();
+            checkBox11 = new System.Windows.Forms.CheckBox();
+            checkBox12 = new System.Windows.Forms.CheckBox();
+            checkBox13 = new System.Windows.Forms.CheckBox();
+            checkBox14 = new System.Windows.Forms.CheckBox();
+            checkBox15 = new System.Windows.Forms.CheckBox();
+            LevelOneMtChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            LevelOneBlockCalculationsDataGridView = new System.Windows.Forms.DataGridView();
+            tabPage3 = new System.Windows.Forms.TabPage();
+            splitContainer4 = new System.Windows.Forms.SplitContainer();
+            splitContainer5 = new System.Windows.Forms.SplitContainer();
+            LevelTwoBlocksComboBox = new System.Windows.Forms.ComboBox();
+            label8 = new System.Windows.Forms.Label();
+            LevelTwoAddBlockButton = new System.Windows.Forms.Button();
+            label6 = new System.Windows.Forms.Label();
+            LevelTwoPointsListBox = new System.Windows.Forms.ListBox();
+            LevelTwoPictureBox = new System.Windows.Forms.PictureBox();
+            splitContainer6 = new System.Windows.Forms.SplitContainer();
+            LevelTwoBlockDataGridView = new System.Windows.Forms.DataGridView();
+            LevelTwoBlockCalculationsDataGridView = new System.Windows.Forms.DataGridView();
+            splitContainer7 = new System.Windows.Forms.SplitContainer();
+            groupBox3 = new System.Windows.Forms.GroupBox();
+            checkBox16 = new System.Windows.Forms.CheckBox();
+            checkBox17 = new System.Windows.Forms.CheckBox();
+            checkBox18 = new System.Windows.Forms.CheckBox();
+            checkBox19 = new System.Windows.Forms.CheckBox();
+            checkBox20 = new System.Windows.Forms.CheckBox();
+            checkBox21 = new System.Windows.Forms.CheckBox();
+            LevelTwoAmChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            groupBox4 = new System.Windows.Forms.GroupBox();
+            checkBox22 = new System.Windows.Forms.CheckBox();
+            checkBox23 = new System.Windows.Forms.CheckBox();
+            checkBox24 = new System.Windows.Forms.CheckBox();
+            checkBox25 = new System.Windows.Forms.CheckBox();
+            checkBox26 = new System.Windows.Forms.CheckBox();
+            checkBox27 = new System.Windows.Forms.CheckBox();
+            LevelTwoMtChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            tabPage4 = new System.Windows.Forms.TabPage();
+            tabControl2 = new System.Windows.Forms.TabControl();
+            tabPage6 = new System.Windows.Forms.TabPage();
+            splitContainer9 = new System.Windows.Forms.SplitContainer();
+            LevelThreeBlocksComboBox = new System.Windows.Forms.ComboBox();
+            label7 = new System.Windows.Forms.Label();
+            LevelThreeBlockPointsListBox = new System.Windows.Forms.ListBox();
+            LevelThreeApplySubBlockButton = new System.Windows.Forms.Button();
+            label4 = new System.Windows.Forms.Label();
+            LevelThreePictureBox = new System.Windows.Forms.PictureBox();
+            LevelThreeApplyBlockButton = new System.Windows.Forms.Button();
+            splitContainer10 = new System.Windows.Forms.SplitContainer();
+            LevelThreeLinksDataGridView = new System.Windows.Forms.DataGridView();
+            LevelThreeLinksStateDataGridView = new System.Windows.Forms.DataGridView();
+            tabPage7 = new System.Windows.Forms.TabPage();
+            splitContainer11 = new System.Windows.Forms.SplitContainer();
+            splitContainer13 = new System.Windows.Forms.SplitContainer();
+            groupBox5 = new System.Windows.Forms.GroupBox();
+            checkBox3 = new System.Windows.Forms.CheckBox();
+            checkBox28 = new System.Windows.Forms.CheckBox();
+            checkBox29 = new System.Windows.Forms.CheckBox();
+            checkBox30 = new System.Windows.Forms.CheckBox();
+            checkBox31 = new System.Windows.Forms.CheckBox();
+            checkBox32 = new System.Windows.Forms.CheckBox();
+            LevelThreeAmChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            groupBox6 = new System.Windows.Forms.GroupBox();
+            checkBox33 = new System.Windows.Forms.CheckBox();
+            checkBox34 = new System.Windows.Forms.CheckBox();
+            checkBox35 = new System.Windows.Forms.CheckBox();
+            checkBox36 = new System.Windows.Forms.CheckBox();
+            checkBox37 = new System.Windows.Forms.CheckBox();
+            checkBox38 = new System.Windows.Forms.CheckBox();
+            LevelThreeMtChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            splitContainer12 = new System.Windows.Forms.SplitContainer();
+            LevelThreeSubBlockDataGridView = new System.Windows.Forms.DataGridView();
+            LevelThreeSubBlockCalculationsDataGridView = new System.Windows.Forms.DataGridView();
+            tabPage5 = new System.Windows.Forms.TabPage();
+            splitContainer8 = new System.Windows.Forms.SplitContainer();
+            LevelFourApplyButton = new System.Windows.Forms.Button();
+            label5 = new System.Windows.Forms.Label();
+            LevelFourPointsListBox = new System.Windows.Forms.ListBox();
+            LevelFourHtChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            LevelFourPictureBox = new System.Windows.Forms.PictureBox();
+            LevelFourDataGridView = new System.Windows.Forms.DataGridView();
+            statusStrip1 = new System.Windows.Forms.StatusStrip();
+            toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)InitialPictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)InitialDataGridView).BeginInit();
+            tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+            splitContainer2.Panel1.SuspendLayout();
+            splitContainer2.Panel2.SuspendLayout();
+            splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).BeginInit();
+            splitContainer3.Panel1.SuspendLayout();
+            splitContainer3.Panel2.SuspendLayout();
+            splitContainer3.SuspendLayout();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelOneAmChart).BeginInit();
+            groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelOneMtChart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelOneBlockCalculationsDataGridView).BeginInit();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).BeginInit();
+            splitContainer4.Panel1.SuspendLayout();
+            splitContainer4.Panel2.SuspendLayout();
+            splitContainer4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer5).BeginInit();
+            splitContainer5.Panel1.SuspendLayout();
+            splitContainer5.Panel2.SuspendLayout();
+            splitContainer5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoPictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)splitContainer6).BeginInit();
+            splitContainer6.Panel1.SuspendLayout();
+            splitContainer6.Panel2.SuspendLayout();
+            splitContainer6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoBlockDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoBlockCalculationsDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)splitContainer7).BeginInit();
+            splitContainer7.Panel1.SuspendLayout();
+            splitContainer7.Panel2.SuspendLayout();
+            splitContainer7.SuspendLayout();
+            groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoAmChart).BeginInit();
+            groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoMtChart).BeginInit();
+            tabPage4.SuspendLayout();
+            tabControl2.SuspendLayout();
+            tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer9).BeginInit();
+            splitContainer9.Panel1.SuspendLayout();
+            splitContainer9.Panel2.SuspendLayout();
+            splitContainer9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreePictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)splitContainer10).BeginInit();
+            splitContainer10.Panel1.SuspendLayout();
+            splitContainer10.Panel2.SuspendLayout();
+            splitContainer10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeLinksDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeLinksStateDataGridView).BeginInit();
+            tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer11).BeginInit();
+            splitContainer11.Panel1.SuspendLayout();
+            splitContainer11.Panel2.SuspendLayout();
+            splitContainer11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer13).BeginInit();
+            splitContainer13.Panel1.SuspendLayout();
+            splitContainer13.Panel2.SuspendLayout();
+            splitContainer13.SuspendLayout();
+            groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeAmChart).BeginInit();
+            groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeMtChart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)splitContainer12).BeginInit();
+            splitContainer12.Panel1.SuspendLayout();
+            splitContainer12.Panel2.SuspendLayout();
+            splitContainer12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeSubBlockDataGridView).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeSubBlockCalculationsDataGridView).BeginInit();
+            tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer8).BeginInit();
+            splitContainer8.Panel1.SuspendLayout();
+            splitContainer8.Panel2.SuspendLayout();
+            splitContainer8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelFourHtChart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelFourPictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LevelFourDataGridView).BeginInit();
+            statusStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Multiline = true;
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1155, 647);
-            this.tabControl1.TabIndex = 0;
+            tabControl1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            tabControl1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Controls.Add(tabPage5);
+            tabControl1.Location = new System.Drawing.Point(0, 0);
+            tabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabControl1.Multiline = true;
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new System.Drawing.Size(1348, 747);
+            tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.splitContainer1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1147, 621);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Исх.данные";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.Controls.Add(splitContainer1);
+            tabPage1.Location = new System.Drawing.Point(4, 4);
+            tabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage1.Size = new System.Drawing.Size(1340, 719);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Исх.данные";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer1.Location = new System.Drawing.Point(4, 3);
+            splitContainer1.Margin = new System.Windows.Forms.Padding(2);
+            splitContainer1.Name = "splitContainer1";
+            splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.label3);
-            this.splitContainer1.Panel1.Controls.Add(this.comboBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
-            this.splitContainer1.Panel1.Controls.Add(this.button3);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
-            this.splitContainer1.Panel1.Controls.Add(this.button2);
-            this.splitContainer1.Panel1.Controls.Add(this.label2);
-            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Panel1.Controls.Add(this.checkBox2);
-            this.splitContainer1.Panel1.Controls.Add(this.textBox2);
-            this.splitContainer1.Panel1.Controls.Add(this.checkBox1);
-            this.splitContainer1.Panel1MinSize = 256;
+            splitContainer1.Panel1.Controls.Add(label3);
+            splitContainer1.Panel1.Controls.Add(TablesComboBox);
+            splitContainer1.Panel1.Controls.Add(RemoveLineButton);
+            splitContainer1.Panel1.Controls.Add(AddLineButton);
+            splitContainer1.Panel1.Controls.Add(AccuracyTextBox);
+            splitContainer1.Panel1.Controls.Add(ConnectDbButton);
+            splitContainer1.Panel1.Controls.Add(label1);
+            splitContainer1.Panel1.Controls.Add(ApplyButton);
+            splitContainer1.Panel1.Controls.Add(label2);
+            splitContainer1.Panel1.Controls.Add(InitialPictureBox);
+            splitContainer1.Panel1.Controls.Add(SmoothingFactorTextBox);
+            splitContainer1.Panel1MinSize = 256;
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.dataGridView1);
-            this.splitContainer1.Size = new System.Drawing.Size(1141, 615);
-            this.splitContainer1.SplitterDistance = 308;
-            this.splitContainer1.SplitterWidth = 3;
-            this.splitContainer1.TabIndex = 13;
-            this.splitContainer1.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer1.Panel2.Controls.Add(InitialDataGridView);
+            splitContainer1.Size = new System.Drawing.Size(1332, 713);
+            splitContainer1.SplitterDistance = 357;
+            splitContainer1.SplitterWidth = 3;
+            splitContainer1.TabIndex = 13;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 13);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Выберите таблицу:";
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(6, 36);
+            label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(112, 15);
+            label3.TabIndex = 19;
+            label3.Text = "Выберите таблицу:";
             // 
-            // comboBox1
+            // TablesComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(5, 47);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(127, 21);
-            this.comboBox1.TabIndex = 18;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            TablesComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            TablesComboBox.FormattingEnabled = true;
+            TablesComboBox.Location = new System.Drawing.Point(6, 54);
+            TablesComboBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            TablesComboBox.Name = "TablesComboBox";
+            TablesComboBox.Size = new System.Drawing.Size(148, 23);
+            TablesComboBox.TabIndex = 18;
+            TablesComboBox.SelectedValueChanged += ComboBox_SelectedValueChanged;
             // 
-            // button4
+            // RemoveLineButton
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button4.Location = new System.Drawing.Point(5, 282);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(127, 23);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "Удалить строку";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            RemoveLineButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            RemoveLineButton.Location = new System.Drawing.Point(6, 327);
+            RemoveLineButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            RemoveLineButton.Name = "RemoveLineButton";
+            RemoveLineButton.Size = new System.Drawing.Size(148, 27);
+            RemoveLineButton.TabIndex = 17;
+            RemoveLineButton.Text = "Удалить строку";
+            RemoveLineButton.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // AddLineButton
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button3.Location = new System.Drawing.Point(5, 253);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(127, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "Добавить строку";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            AddLineButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            AddLineButton.Location = new System.Drawing.Point(6, 294);
+            AddLineButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            AddLineButton.Name = "AddLineButton";
+            AddLineButton.Size = new System.Drawing.Size(148, 27);
+            AddLineButton.TabIndex = 16;
+            AddLineButton.Text = "Добавить строку";
+            AddLineButton.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // AccuracyTextBox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox1.Location = new System.Drawing.Point(6, 139);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(127, 20);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            AccuracyTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            AccuracyTextBox.Location = new System.Drawing.Point(7, 162);
+            AccuracyTextBox.Margin = new System.Windows.Forms.Padding(2);
+            AccuracyTextBox.Name = "AccuracyTextBox";
+            AccuracyTextBox.Size = new System.Drawing.Size(148, 23);
+            AccuracyTextBox.TabIndex = 8;
             // 
-            // button1
+            // ConnectDbButton
             // 
-            this.button1.Location = new System.Drawing.Point(5, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Подключить БД";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            ConnectDbButton.Location = new System.Drawing.Point(6, 6);
+            ConnectDbButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            ConnectDbButton.Name = "ConnectDbButton";
+            ConnectDbButton.Size = new System.Drawing.Size(148, 27);
+            ConnectDbButton.TabIndex = 6;
+            ConnectDbButton.Text = "Подключить БД";
+            ConnectDbButton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 123);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Точность измерений";
+            label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(4, 144);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(122, 15);
+            label1.TabIndex = 3;
+            label1.Text = "Точность измерений";
             // 
-            // button2
+            // ApplyButton
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button2.Location = new System.Drawing.Point(5, 211);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Применить";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            ApplyButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            ApplyButton.Location = new System.Drawing.Point(6, 245);
+            ApplyButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            ApplyButton.Name = "ApplyButton";
+            ApplyButton.Size = new System.Drawing.Size(148, 27);
+            ApplyButton.TabIndex = 12;
+            ApplyButton.Text = "Применить";
+            ApplyButton.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 166);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(251, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Коэффициент экспоненциального сглаживания";
+            label2.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(4, 194);
+            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(273, 15);
+            label2.TabIndex = 5;
+            label2.Text = "Коэффициент экспоненциального сглаживания";
             // 
-            // pictureBox1
+            // InitialPictureBox
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(382, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(464, 302);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            InitialPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            InitialPictureBox.Location = new System.Drawing.Point(446, 3);
+            InitialPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            InitialPictureBox.Name = "InitialPictureBox";
+            InitialPictureBox.Size = new System.Drawing.Size(542, 350);
+            InitialPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            InitialPictureBox.TabIndex = 1;
+            InitialPictureBox.TabStop = false;
             // 
-            // checkBox2
+            // SmoothingFactorTextBox
             // 
-            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkBox2.AutoCheck = false;
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(138, 185);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 11;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            SmoothingFactorTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            SmoothingFactorTextBox.Location = new System.Drawing.Point(6, 212);
+            SmoothingFactorTextBox.Margin = new System.Windows.Forms.Padding(2);
+            SmoothingFactorTextBox.Name = "SmoothingFactorTextBox";
+            SmoothingFactorTextBox.Size = new System.Drawing.Size(148, 23);
+            SmoothingFactorTextBox.TabIndex = 9;
+            SmoothingFactorTextBox.Text = "0,9";
             // 
-            // textBox2
+            // InitialDataGridView
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox2.Location = new System.Drawing.Point(5, 182);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(127, 20);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.Text = "0,9";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox_TextChanged);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkBox1.AutoCheck = false;
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(138, 142);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 10;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(1141, 304);
-            this.dataGridView1.TabIndex = 0;
+            InitialDataGridView.AllowUserToAddRows = false;
+            InitialDataGridView.AllowUserToDeleteRows = false;
+            InitialDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.Format = "N4";
+            dataGridViewCellStyle1.NullValue = null;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            InitialDataGridView.DefaultCellStyle = dataGridViewCellStyle1;
+            InitialDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            InitialDataGridView.Location = new System.Drawing.Point(0, 0);
+            InitialDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            InitialDataGridView.Name = "InitialDataGridView";
+            InitialDataGridView.ReadOnly = true;
+            InitialDataGridView.RowHeadersVisible = false;
+            InitialDataGridView.RowHeadersWidth = 51;
+            InitialDataGridView.Size = new System.Drawing.Size(1332, 353);
+            InitialDataGridView.TabIndex = 0;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.splitContainer2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1147, 621);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "1-й ур.";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.Controls.Add(splitContainer2);
+            tabPage2.Location = new System.Drawing.Point(4, 4);
+            tabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage2.Size = new System.Drawing.Size(1340, 719);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "1-й ур.";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer2.Location = new System.Drawing.Point(4, 3);
+            splitContainer2.Margin = new System.Windows.Forms.Padding(2);
+            splitContainer2.Name = "splitContainer2";
+            splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.splitContainer3);
+            splitContainer2.Panel1.Controls.Add(splitContainer3);
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.dataGridView2);
-            this.splitContainer2.Size = new System.Drawing.Size(1141, 615);
-            this.splitContainer2.SplitterDistance = 344;
-            this.splitContainer2.SplitterWidth = 3;
-            this.splitContainer2.TabIndex = 1;
-            this.splitContainer2.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer2.Panel2.Controls.Add(LevelOneBlockCalculationsDataGridView);
+            splitContainer2.Size = new System.Drawing.Size(1332, 713);
+            splitContainer2.SplitterDistance = 398;
+            splitContainer2.SplitterWidth = 3;
+            splitContainer2.TabIndex = 1;
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(2);
-            this.splitContainer3.Name = "splitContainer3";
+            splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer3.Location = new System.Drawing.Point(0, 0);
+            splitContainer3.Margin = new System.Windows.Forms.Padding(2);
+            splitContainer3.Name = "splitContainer3";
             // 
             // splitContainer3.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.groupBox1);
-            this.splitContainer3.Panel1.Controls.Add(this.chart1);
+            splitContainer3.Panel1.Controls.Add(groupBox1);
+            splitContainer3.Panel1.Controls.Add(LevelOneAmChart);
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer3.Panel2.Controls.Add(this.chart2);
-            this.splitContainer3.Size = new System.Drawing.Size(1141, 344);
-            this.splitContainer3.SplitterDistance = 560;
-            this.splitContainer3.SplitterWidth = 3;
-            this.splitContainer3.TabIndex = 2;
-            this.splitContainer3.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer3.Panel2.Controls.Add(groupBox2);
+            splitContainer3.Panel2.Controls.Add(LevelOneMtChart);
+            splitContainer3.Size = new System.Drawing.Size(1332, 398);
+            splitContainer3.SplitterDistance = 653;
+            splitContainer3.TabIndex = 2;
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Location = new System.Drawing.Point(443, 179);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(115, 163);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
+            groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox1.Controls.Add(checkBox4);
+            groupBox1.Controls.Add(checkBox9);
+            groupBox1.Controls.Add(checkBox5);
+            groupBox1.Controls.Add(checkBox8);
+            groupBox1.Controls.Add(checkBox6);
+            groupBox1.Controls.Add(checkBox7);
+            groupBox1.Location = new System.Drawing.Point(517, 208);
+            groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox1.Size = new System.Drawing.Size(134, 188);
+            groupBox1.TabIndex = 7;
+            groupBox1.TabStop = false;
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 19);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(47, 17);
-            this.checkBox4.TabIndex = 1;
-            this.checkBox4.Text = "a(M)";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox4.AutoSize = true;
+            checkBox4.Checked = true;
+            checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox4.Location = new System.Drawing.Point(7, 22);
+            checkBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new System.Drawing.Size(51, 19);
+            checkBox4.TabIndex = 1;
+            checkBox4.Text = "a(M)";
+            checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox9
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(6, 135);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(96, 17);
-            this.checkBox9.TabIndex = 6;
-            this.checkBox9.Text = "a(M)- Прогноз";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox9.AutoSize = true;
+            checkBox9.Checked = true;
+            checkBox9.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox9.Location = new System.Drawing.Point(7, 156);
+            checkBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox9.Name = "checkBox9";
+            checkBox9.Size = new System.Drawing.Size(106, 19);
+            checkBox9.TabIndex = 6;
+            checkBox9.Text = "a(M)- Прогноз";
+            checkBox9.UseVisualStyleBackColor = true;
+            checkBox9.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 42);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(53, 17);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.Text = "a(M)+";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox5.AutoSize = true;
+            checkBox5.Checked = true;
+            checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox5.Location = new System.Drawing.Point(7, 48);
+            checkBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new System.Drawing.Size(59, 19);
+            checkBox5.TabIndex = 2;
+            checkBox5.Text = "a(M)+";
+            checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(6, 112);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(99, 17);
-            this.checkBox8.TabIndex = 5;
-            this.checkBox8.Text = "a(M)+ Прогноз";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            this.checkBox8.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox8.AutoSize = true;
+            checkBox8.Checked = true;
+            checkBox8.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox8.Location = new System.Drawing.Point(7, 129);
+            checkBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox8.Name = "checkBox8";
+            checkBox8.Size = new System.Drawing.Size(109, 19);
+            checkBox8.TabIndex = 5;
+            checkBox8.Text = "a(M)+ Прогноз";
+            checkBox8.UseVisualStyleBackColor = true;
+            checkBox8.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(6, 65);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(50, 17);
-            this.checkBox6.TabIndex = 3;
-            this.checkBox6.Text = "a(M)-";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox6.AutoSize = true;
+            checkBox6.Checked = true;
+            checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox6.Location = new System.Drawing.Point(7, 75);
+            checkBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new System.Drawing.Size(56, 19);
+            checkBox6.TabIndex = 3;
+            checkBox6.Text = "a(M)-";
+            checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(6, 89);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(93, 17);
-            this.checkBox7.TabIndex = 4;
-            this.checkBox7.Text = "a(M) Прогноз";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            this.checkBox7.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox7.AutoSize = true;
+            checkBox7.Checked = true;
+            checkBox7.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox7.Location = new System.Drawing.Point(7, 103);
+            checkBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Size = new System.Drawing.Size(101, 19);
+            checkBox7.TabIndex = 4;
+            checkBox7.Text = "a(M) Прогноз";
+            checkBox7.UseVisualStyleBackColor = true;
+            checkBox7.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart1
+            // LevelOneAmChart
             // 
             chartArea1.AxisX.Title = "M";
-            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea1.AxisY.Title = "a (в секундах)";
-            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelOneAmChart.ChartAreas.Add(chartArea1);
+            LevelOneAmChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(0, 0);
-            this.chart1.Margin = new System.Windows.Forms.Padding(2);
-            this.chart1.Name = "chart1";
-            this.chart1.Size = new System.Drawing.Size(560, 344);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            LevelOneAmChart.Legends.Add(legend1);
+            LevelOneAmChart.Location = new System.Drawing.Point(0, 0);
+            LevelOneAmChart.Margin = new System.Windows.Forms.Padding(2);
+            LevelOneAmChart.Name = "LevelOneAmChart";
+            LevelOneAmChart.Size = new System.Drawing.Size(653, 398);
+            LevelOneAmChart.TabIndex = 0;
+            LevelOneAmChart.Text = "chart1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.checkBox10);
-            this.groupBox2.Controls.Add(this.checkBox11);
-            this.groupBox2.Controls.Add(this.checkBox12);
-            this.groupBox2.Controls.Add(this.checkBox13);
-            this.groupBox2.Controls.Add(this.checkBox14);
-            this.groupBox2.Controls.Add(this.checkBox15);
-            this.groupBox2.Location = new System.Drawing.Point(467, 181);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(115, 163);
-            this.groupBox2.TabIndex = 8;
-            this.groupBox2.TabStop = false;
+            groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox2.Controls.Add(checkBox10);
+            groupBox2.Controls.Add(checkBox11);
+            groupBox2.Controls.Add(checkBox12);
+            groupBox2.Controls.Add(checkBox13);
+            groupBox2.Controls.Add(checkBox14);
+            groupBox2.Controls.Add(checkBox15);
+            groupBox2.Location = new System.Drawing.Point(548, 210);
+            groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox2.Size = new System.Drawing.Size(134, 188);
+            groupBox2.TabIndex = 8;
+            groupBox2.TabStop = false;
             // 
             // checkBox10
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(6, 19);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(44, 17);
-            this.checkBox10.TabIndex = 1;
-            this.checkBox10.Text = "M(t)";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            this.checkBox10.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox10.AutoSize = true;
+            checkBox10.Checked = true;
+            checkBox10.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox10.Location = new System.Drawing.Point(7, 22);
+            checkBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox10.Name = "checkBox10";
+            checkBox10.Size = new System.Drawing.Size(49, 19);
+            checkBox10.TabIndex = 1;
+            checkBox10.Text = "M(t)";
+            checkBox10.UseVisualStyleBackColor = true;
+            checkBox10.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox11
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(6, 135);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(93, 17);
-            this.checkBox11.TabIndex = 6;
-            this.checkBox11.Text = "M(t)- Прогноз";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            this.checkBox11.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox11.AutoSize = true;
+            checkBox11.Checked = true;
+            checkBox11.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox11.Location = new System.Drawing.Point(7, 156);
+            checkBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox11.Name = "checkBox11";
+            checkBox11.Size = new System.Drawing.Size(104, 19);
+            checkBox11.TabIndex = 6;
+            checkBox11.Text = "M(t)- Прогноз";
+            checkBox11.UseVisualStyleBackColor = true;
+            checkBox11.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox12
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(6, 42);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(50, 17);
-            this.checkBox12.TabIndex = 2;
-            this.checkBox12.Text = "M(t)+";
-            this.checkBox12.UseVisualStyleBackColor = true;
-            this.checkBox12.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox12.AutoSize = true;
+            checkBox12.Checked = true;
+            checkBox12.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox12.Location = new System.Drawing.Point(7, 48);
+            checkBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox12.Name = "checkBox12";
+            checkBox12.Size = new System.Drawing.Size(57, 19);
+            checkBox12.TabIndex = 2;
+            checkBox12.Text = "M(t)+";
+            checkBox12.UseVisualStyleBackColor = true;
+            checkBox12.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox13
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(6, 112);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(96, 17);
-            this.checkBox13.TabIndex = 5;
-            this.checkBox13.Text = "M(t)+ Прогноз";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            this.checkBox13.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox13.AutoSize = true;
+            checkBox13.Checked = true;
+            checkBox13.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox13.Location = new System.Drawing.Point(7, 129);
+            checkBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox13.Name = "checkBox13";
+            checkBox13.Size = new System.Drawing.Size(107, 19);
+            checkBox13.TabIndex = 5;
+            checkBox13.Text = "M(t)+ Прогноз";
+            checkBox13.UseVisualStyleBackColor = true;
+            checkBox13.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox14
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(6, 65);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(47, 17);
-            this.checkBox14.TabIndex = 3;
-            this.checkBox14.Text = "M(t)-";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            this.checkBox14.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox14.AutoSize = true;
+            checkBox14.Checked = true;
+            checkBox14.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox14.Location = new System.Drawing.Point(7, 75);
+            checkBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox14.Name = "checkBox14";
+            checkBox14.Size = new System.Drawing.Size(54, 19);
+            checkBox14.TabIndex = 3;
+            checkBox14.Text = "M(t)-";
+            checkBox14.UseVisualStyleBackColor = true;
+            checkBox14.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox15
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(6, 89);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(90, 17);
-            this.checkBox15.TabIndex = 4;
-            this.checkBox15.Text = "M(t) Прогноз";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            this.checkBox15.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox15.AutoSize = true;
+            checkBox15.Checked = true;
+            checkBox15.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox15.Location = new System.Drawing.Point(7, 103);
+            checkBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox15.Name = "checkBox15";
+            checkBox15.Size = new System.Drawing.Size(99, 19);
+            checkBox15.TabIndex = 4;
+            checkBox15.Text = "M(t) Прогноз";
+            checkBox15.UseVisualStyleBackColor = true;
+            checkBox15.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart2
+            // LevelOneMtChart
             // 
             chartArea2.AxisX.Title = "t";
-            chartArea2.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea2.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea2.AxisY.Title = "M";
-            chartArea2.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea2.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea2.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea2);
-            this.chart2.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelOneMtChart.ChartAreas.Add(chartArea2);
+            LevelOneMtChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend2.Name = "Legend1";
-            this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(0, 0);
-            this.chart2.Margin = new System.Windows.Forms.Padding(2);
-            this.chart2.Name = "chart2";
-            this.chart2.Size = new System.Drawing.Size(578, 344);
-            this.chart2.TabIndex = 1;
-            this.chart2.Text = "chart2";
+            LevelOneMtChart.Legends.Add(legend2);
+            LevelOneMtChart.Location = new System.Drawing.Point(0, 0);
+            LevelOneMtChart.Margin = new System.Windows.Forms.Padding(2);
+            LevelOneMtChart.Name = "LevelOneMtChart";
+            LevelOneMtChart.Size = new System.Drawing.Size(675, 398);
+            LevelOneMtChart.TabIndex = 1;
+            LevelOneMtChart.Text = "chart2";
             // 
-            // dataGridView2
+            // LevelOneBlockCalculationsDataGridView
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1141, 268);
-            this.dataGridView2.TabIndex = 0;
+            LevelOneBlockCalculationsDataGridView.AllowUserToAddRows = false;
+            LevelOneBlockCalculationsDataGridView.AllowUserToDeleteRows = false;
+            LevelOneBlockCalculationsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.Format = "N4";
+            dataGridViewCellStyle2.NullValue = null;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelOneBlockCalculationsDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            LevelOneBlockCalculationsDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelOneBlockCalculationsDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelOneBlockCalculationsDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            LevelOneBlockCalculationsDataGridView.Name = "LevelOneBlockCalculationsDataGridView";
+            LevelOneBlockCalculationsDataGridView.RowHeadersVisible = false;
+            LevelOneBlockCalculationsDataGridView.RowHeadersWidth = 51;
+            LevelOneBlockCalculationsDataGridView.RowTemplate.Height = 24;
+            LevelOneBlockCalculationsDataGridView.Size = new System.Drawing.Size(1332, 312);
+            LevelOneBlockCalculationsDataGridView.TabIndex = 0;
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.splitContainer4);
-            this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1147, 621);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "2-й ур.";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.Controls.Add(splitContainer4);
+            tabPage3.Location = new System.Drawing.Point(4, 4);
+            tabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new System.Drawing.Size(1340, 719);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "2-й ур.";
+            tabPage3.UseVisualStyleBackColor = true;
             // 
             // splitContainer4
             // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Name = "splitContainer4";
+            splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer4.Location = new System.Drawing.Point(0, 0);
+            splitContainer4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer4.Name = "splitContainer4";
             // 
             // splitContainer4.Panel1
             // 
-            this.splitContainer4.Panel1.Controls.Add(this.splitContainer5);
-            this.splitContainer4.Panel1MinSize = 200;
+            splitContainer4.Panel1.Controls.Add(splitContainer5);
+            splitContainer4.Panel1MinSize = 200;
             // 
             // splitContainer4.Panel2
             // 
-            this.splitContainer4.Panel2.Controls.Add(this.splitContainer7);
-            this.splitContainer4.Panel2MinSize = 125;
-            this.splitContainer4.Size = new System.Drawing.Size(1147, 621);
-            this.splitContainer4.SplitterDistance = 591;
-            this.splitContainer4.TabIndex = 0;
-            this.splitContainer4.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer4.Panel2.Controls.Add(splitContainer7);
+            splitContainer4.Panel2MinSize = 125;
+            splitContainer4.Size = new System.Drawing.Size(1340, 719);
+            splitContainer4.SplitterDistance = 690;
+            splitContainer4.SplitterWidth = 5;
+            splitContainer4.TabIndex = 0;
             // 
             // splitContainer5
             // 
-            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer5.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer5.Name = "splitContainer5";
-            this.splitContainer5.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer5.Location = new System.Drawing.Point(0, 0);
+            splitContainer5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer5.Name = "splitContainer5";
+            splitContainer5.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer5.Panel1
             // 
-            this.splitContainer5.Panel1.Controls.Add(this.comboBox3);
-            this.splitContainer5.Panel1.Controls.Add(this.label8);
-            this.splitContainer5.Panel1.Controls.Add(this.button5);
-            this.splitContainer5.Panel1.Controls.Add(this.label6);
-            this.splitContainer5.Panel1.Controls.Add(this.listBox2);
-            this.splitContainer5.Panel1.Controls.Add(this.pictureBox2);
-            this.splitContainer5.Panel1MinSize = 150;
+            splitContainer5.Panel1.Controls.Add(LevelTwoBlocksComboBox);
+            splitContainer5.Panel1.Controls.Add(label8);
+            splitContainer5.Panel1.Controls.Add(LevelTwoAddBlockButton);
+            splitContainer5.Panel1.Controls.Add(label6);
+            splitContainer5.Panel1.Controls.Add(LevelTwoPointsListBox);
+            splitContainer5.Panel1.Controls.Add(LevelTwoPictureBox);
+            splitContainer5.Panel1MinSize = 150;
             // 
             // splitContainer5.Panel2
             // 
-            this.splitContainer5.Panel2.Controls.Add(this.splitContainer6);
-            this.splitContainer5.Size = new System.Drawing.Size(591, 621);
-            this.splitContainer5.SplitterDistance = 319;
-            this.splitContainer5.TabIndex = 0;
-            this.splitContainer5.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer5.Panel2.Controls.Add(splitContainer6);
+            splitContainer5.Size = new System.Drawing.Size(690, 719);
+            splitContainer5.SplitterDistance = 369;
+            splitContainer5.SplitterWidth = 5;
+            splitContainer5.TabIndex = 0;
             // 
-            // comboBox3
+            // LevelTwoBlocksComboBox
             // 
-            this.comboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(3, 288);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 11;
-            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            LevelTwoBlocksComboBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            LevelTwoBlocksComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            LevelTwoBlocksComboBox.FormattingEnabled = true;
+            LevelTwoBlocksComboBox.Location = new System.Drawing.Point(4, 333);
+            LevelTwoBlocksComboBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoBlocksComboBox.Name = "LevelTwoBlocksComboBox";
+            LevelTwoBlocksComboBox.Size = new System.Drawing.Size(140, 23);
+            LevelTwoBlocksComboBox.TabIndex = 11;
+            LevelTwoBlocksComboBox.SelectedValueChanged += ComboBox_SelectedValueChanged;
             // 
             // label8
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 272);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Выберите блок";
+            label8.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            label8.AutoSize = true;
+            label8.Location = new System.Drawing.Point(4, 315);
+            label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(91, 15);
+            label8.TabIndex = 10;
+            label8.Text = "Выберите блок";
             // 
-            // button5
+            // LevelTwoAddBlockButton
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button5.Location = new System.Drawing.Point(3, 240);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Добавить блок";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            LevelTwoAddBlockButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            LevelTwoAddBlockButton.Location = new System.Drawing.Point(4, 278);
+            LevelTwoAddBlockButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoAddBlockButton.Name = "LevelTwoAddBlockButton";
+            LevelTwoAddBlockButton.Size = new System.Drawing.Size(141, 27);
+            LevelTwoAddBlockButton.TabIndex = 5;
+            LevelTwoAddBlockButton.Text = "Добавить блок";
+            LevelTwoAddBlockButton.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 6);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 13);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Выберите точки:";
+            label6.AutoSize = true;
+            label6.Location = new System.Drawing.Point(4, 7);
+            label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(99, 15);
+            label6.TabIndex = 4;
+            label6.Text = "Выберите точки:";
             // 
-            // listBox2
+            // LevelTwoPointsListBox
             // 
-            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(3, 22);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox2.Size = new System.Drawing.Size(121, 212);
-            this.listBox2.TabIndex = 3;
+            LevelTwoPointsListBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            LevelTwoPointsListBox.FormattingEnabled = true;
+            LevelTwoPointsListBox.Location = new System.Drawing.Point(4, 25);
+            LevelTwoPointsListBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoPointsListBox.Name = "LevelTwoPointsListBox";
+            LevelTwoPointsListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            LevelTwoPointsListBox.Size = new System.Drawing.Size(140, 244);
+            LevelTwoPointsListBox.TabIndex = 3;
             // 
-            // pictureBox2
+            // LevelTwoPictureBox
             // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Location = new System.Drawing.Point(130, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(462, 316);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            LevelTwoPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            LevelTwoPictureBox.Location = new System.Drawing.Point(152, 0);
+            LevelTwoPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoPictureBox.Name = "LevelTwoPictureBox";
+            LevelTwoPictureBox.Size = new System.Drawing.Size(539, 366);
+            LevelTwoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            LevelTwoPictureBox.TabIndex = 0;
+            LevelTwoPictureBox.TabStop = false;
             // 
             // splitContainer6
             // 
-            this.splitContainer6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer6.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer6.Name = "splitContainer6";
+            splitContainer6.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer6.Location = new System.Drawing.Point(0, 0);
+            splitContainer6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer6.Name = "splitContainer6";
             // 
             // splitContainer6.Panel1
             // 
-            this.splitContainer6.Panel1.Controls.Add(this.dataGridView3);
+            splitContainer6.Panel1.Controls.Add(LevelTwoBlockDataGridView);
             // 
             // splitContainer6.Panel2
             // 
-            this.splitContainer6.Panel2.Controls.Add(this.dataGridView4);
-            this.splitContainer6.Size = new System.Drawing.Size(591, 298);
-            this.splitContainer6.SplitterDistance = 285;
-            this.splitContainer6.TabIndex = 0;
-            this.splitContainer6.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer6.Panel2.Controls.Add(LevelTwoBlockCalculationsDataGridView);
+            splitContainer6.Size = new System.Drawing.Size(690, 345);
+            splitContainer6.SplitterDistance = 332;
+            splitContainer6.SplitterWidth = 5;
+            splitContainer6.TabIndex = 0;
             // 
-            // dataGridView3
+            // LevelTwoBlockDataGridView
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView3.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.RowHeadersWidth = 51;
-            this.dataGridView3.Size = new System.Drawing.Size(285, 298);
-            this.dataGridView3.TabIndex = 0;
+            LevelTwoBlockDataGridView.AllowUserToAddRows = false;
+            LevelTwoBlockDataGridView.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle3.Format = "N4";
+            dataGridViewCellStyle3.NullValue = null;
+            LevelTwoBlockDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            LevelTwoBlockDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            LevelTwoBlockDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelTwoBlockDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelTwoBlockDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoBlockDataGridView.Name = "LevelTwoBlockDataGridView";
+            LevelTwoBlockDataGridView.RowHeadersVisible = false;
+            LevelTwoBlockDataGridView.RowHeadersWidth = 51;
+            LevelTwoBlockDataGridView.Size = new System.Drawing.Size(332, 345);
+            LevelTwoBlockDataGridView.TabIndex = 0;
             // 
-            // dataGridView4
+            // LevelTwoBlockCalculationsDataGridView
             // 
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView4.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowHeadersVisible = false;
-            this.dataGridView4.RowHeadersWidth = 51;
-            this.dataGridView4.Size = new System.Drawing.Size(302, 298);
-            this.dataGridView4.TabIndex = 1;
+            LevelTwoBlockCalculationsDataGridView.AllowUserToAddRows = false;
+            LevelTwoBlockCalculationsDataGridView.AllowUserToDeleteRows = false;
+            LevelTwoBlockCalculationsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.Format = "N4";
+            dataGridViewCellStyle4.NullValue = null;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelTwoBlockCalculationsDataGridView.DefaultCellStyle = dataGridViewCellStyle4;
+            LevelTwoBlockCalculationsDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelTwoBlockCalculationsDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelTwoBlockCalculationsDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoBlockCalculationsDataGridView.Name = "LevelTwoBlockCalculationsDataGridView";
+            LevelTwoBlockCalculationsDataGridView.RowHeadersVisible = false;
+            LevelTwoBlockCalculationsDataGridView.RowHeadersWidth = 51;
+            LevelTwoBlockCalculationsDataGridView.Size = new System.Drawing.Size(353, 345);
+            LevelTwoBlockCalculationsDataGridView.TabIndex = 1;
             // 
             // splitContainer7
             // 
-            this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer7.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer7.Name = "splitContainer7";
-            this.splitContainer7.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer7.Location = new System.Drawing.Point(0, 0);
+            splitContainer7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer7.Name = "splitContainer7";
+            splitContainer7.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer7.Panel1
             // 
-            this.splitContainer7.Panel1.Controls.Add(this.groupBox3);
-            this.splitContainer7.Panel1.Controls.Add(this.chart3);
-            this.splitContainer7.Panel1MinSize = 150;
+            splitContainer7.Panel1.Controls.Add(groupBox3);
+            splitContainer7.Panel1.Controls.Add(LevelTwoAmChart);
+            splitContainer7.Panel1MinSize = 150;
             // 
             // splitContainer7.Panel2
             // 
-            this.splitContainer7.Panel2.Controls.Add(this.groupBox4);
-            this.splitContainer7.Panel2.Controls.Add(this.chart4);
-            this.splitContainer7.Panel2MinSize = 150;
-            this.splitContainer7.Size = new System.Drawing.Size(552, 621);
-            this.splitContainer7.SplitterDistance = 310;
-            this.splitContainer7.TabIndex = 2;
-            this.splitContainer7.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer7.Panel2.Controls.Add(groupBox4);
+            splitContainer7.Panel2.Controls.Add(LevelTwoMtChart);
+            splitContainer7.Panel2MinSize = 150;
+            splitContainer7.Size = new System.Drawing.Size(645, 719);
+            splitContainer7.SplitterDistance = 358;
+            splitContainer7.SplitterWidth = 5;
+            splitContainer7.TabIndex = 2;
             // 
             // groupBox3
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.checkBox16);
-            this.groupBox3.Controls.Add(this.checkBox17);
-            this.groupBox3.Controls.Add(this.checkBox18);
-            this.groupBox3.Controls.Add(this.checkBox19);
-            this.groupBox3.Controls.Add(this.checkBox20);
-            this.groupBox3.Controls.Add(this.checkBox21);
-            this.groupBox3.Location = new System.Drawing.Point(435, 137);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(115, 163);
-            this.groupBox3.TabIndex = 8;
-            this.groupBox3.TabStop = false;
+            groupBox3.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox3.Controls.Add(checkBox16);
+            groupBox3.Controls.Add(checkBox17);
+            groupBox3.Controls.Add(checkBox18);
+            groupBox3.Controls.Add(checkBox19);
+            groupBox3.Controls.Add(checkBox20);
+            groupBox3.Controls.Add(checkBox21);
+            groupBox3.Location = new System.Drawing.Point(508, 158);
+            groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox3.Size = new System.Drawing.Size(134, 188);
+            groupBox3.TabIndex = 8;
+            groupBox3.TabStop = false;
             // 
             // checkBox16
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(6, 19);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(47, 17);
-            this.checkBox16.TabIndex = 1;
-            this.checkBox16.Text = "a(M)";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            this.checkBox16.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox16.AutoSize = true;
+            checkBox16.Checked = true;
+            checkBox16.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox16.Location = new System.Drawing.Point(7, 22);
+            checkBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox16.Name = "checkBox16";
+            checkBox16.Size = new System.Drawing.Size(51, 19);
+            checkBox16.TabIndex = 1;
+            checkBox16.Text = "a(M)";
+            checkBox16.UseVisualStyleBackColor = true;
+            checkBox16.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox17
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(6, 135);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(96, 17);
-            this.checkBox17.TabIndex = 6;
-            this.checkBox17.Text = "a(M)- Прогноз";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            this.checkBox17.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox17.AutoSize = true;
+            checkBox17.Checked = true;
+            checkBox17.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox17.Location = new System.Drawing.Point(7, 156);
+            checkBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox17.Name = "checkBox17";
+            checkBox17.Size = new System.Drawing.Size(106, 19);
+            checkBox17.TabIndex = 6;
+            checkBox17.Text = "a(M)- Прогноз";
+            checkBox17.UseVisualStyleBackColor = true;
+            checkBox17.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox18
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(6, 42);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(53, 17);
-            this.checkBox18.TabIndex = 2;
-            this.checkBox18.Text = "a(M)+";
-            this.checkBox18.UseVisualStyleBackColor = true;
-            this.checkBox18.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox18.AutoSize = true;
+            checkBox18.Checked = true;
+            checkBox18.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox18.Location = new System.Drawing.Point(7, 48);
+            checkBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox18.Name = "checkBox18";
+            checkBox18.Size = new System.Drawing.Size(59, 19);
+            checkBox18.TabIndex = 2;
+            checkBox18.Text = "a(M)+";
+            checkBox18.UseVisualStyleBackColor = true;
+            checkBox18.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox19
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(6, 112);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(99, 17);
-            this.checkBox19.TabIndex = 5;
-            this.checkBox19.Text = "a(M)+ Прогноз";
-            this.checkBox19.UseVisualStyleBackColor = true;
-            this.checkBox19.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox19.AutoSize = true;
+            checkBox19.Checked = true;
+            checkBox19.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox19.Location = new System.Drawing.Point(7, 129);
+            checkBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox19.Name = "checkBox19";
+            checkBox19.Size = new System.Drawing.Size(109, 19);
+            checkBox19.TabIndex = 5;
+            checkBox19.Text = "a(M)+ Прогноз";
+            checkBox19.UseVisualStyleBackColor = true;
+            checkBox19.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox20
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(6, 65);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(50, 17);
-            this.checkBox20.TabIndex = 3;
-            this.checkBox20.Text = "a(M)-";
-            this.checkBox20.UseVisualStyleBackColor = true;
-            this.checkBox20.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox20.AutoSize = true;
+            checkBox20.Checked = true;
+            checkBox20.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox20.Location = new System.Drawing.Point(7, 75);
+            checkBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox20.Name = "checkBox20";
+            checkBox20.Size = new System.Drawing.Size(56, 19);
+            checkBox20.TabIndex = 3;
+            checkBox20.Text = "a(M)-";
+            checkBox20.UseVisualStyleBackColor = true;
+            checkBox20.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox21
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(6, 89);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(93, 17);
-            this.checkBox21.TabIndex = 4;
-            this.checkBox21.Text = "a(M) Прогноз";
-            this.checkBox21.UseVisualStyleBackColor = true;
-            this.checkBox21.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox21.AutoSize = true;
+            checkBox21.Checked = true;
+            checkBox21.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox21.Location = new System.Drawing.Point(7, 103);
+            checkBox21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox21.Name = "checkBox21";
+            checkBox21.Size = new System.Drawing.Size(101, 19);
+            checkBox21.TabIndex = 4;
+            checkBox21.Text = "a(M) Прогноз";
+            checkBox21.UseVisualStyleBackColor = true;
+            checkBox21.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart3
+            // LevelTwoAmChart
             // 
             chartArea3.AxisX.Title = "M";
-            chartArea3.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea3.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea3.AxisY.Title = "a";
-            chartArea3.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea3.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea3.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea3);
-            this.chart3.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelTwoAmChart.ChartAreas.Add(chartArea3);
+            LevelTwoAmChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend3.Name = "Legend1";
-            this.chart3.Legends.Add(legend3);
-            this.chart3.Location = new System.Drawing.Point(0, 0);
-            this.chart3.Name = "chart3";
-            this.chart3.Size = new System.Drawing.Size(552, 310);
-            this.chart3.TabIndex = 0;
-            this.chart3.Text = "chart3";
+            LevelTwoAmChart.Legends.Add(legend3);
+            LevelTwoAmChart.Location = new System.Drawing.Point(0, 0);
+            LevelTwoAmChart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoAmChart.Name = "LevelTwoAmChart";
+            LevelTwoAmChart.Size = new System.Drawing.Size(645, 358);
+            LevelTwoAmChart.TabIndex = 0;
+            LevelTwoAmChart.Text = "chart3";
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.Controls.Add(this.checkBox22);
-            this.groupBox4.Controls.Add(this.checkBox23);
-            this.groupBox4.Controls.Add(this.checkBox24);
-            this.groupBox4.Controls.Add(this.checkBox25);
-            this.groupBox4.Controls.Add(this.checkBox26);
-            this.groupBox4.Controls.Add(this.checkBox27);
-            this.groupBox4.Location = new System.Drawing.Point(435, 139);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(115, 163);
-            this.groupBox4.TabIndex = 9;
-            this.groupBox4.TabStop = false;
+            groupBox4.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox4.Controls.Add(checkBox22);
+            groupBox4.Controls.Add(checkBox23);
+            groupBox4.Controls.Add(checkBox24);
+            groupBox4.Controls.Add(checkBox25);
+            groupBox4.Controls.Add(checkBox26);
+            groupBox4.Controls.Add(checkBox27);
+            groupBox4.Location = new System.Drawing.Point(508, 128);
+            groupBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox4.Size = new System.Drawing.Size(134, 188);
+            groupBox4.TabIndex = 9;
+            groupBox4.TabStop = false;
             // 
             // checkBox22
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(6, 19);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(44, 17);
-            this.checkBox22.TabIndex = 1;
-            this.checkBox22.Text = "M(t)";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            this.checkBox22.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox22.AutoSize = true;
+            checkBox22.Checked = true;
+            checkBox22.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox22.Location = new System.Drawing.Point(7, 22);
+            checkBox22.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox22.Name = "checkBox22";
+            checkBox22.Size = new System.Drawing.Size(49, 19);
+            checkBox22.TabIndex = 1;
+            checkBox22.Text = "M(t)";
+            checkBox22.UseVisualStyleBackColor = true;
+            checkBox22.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox23
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(6, 135);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(93, 17);
-            this.checkBox23.TabIndex = 6;
-            this.checkBox23.Text = "M(t)- Прогноз";
-            this.checkBox23.UseVisualStyleBackColor = true;
-            this.checkBox23.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox23.AutoSize = true;
+            checkBox23.Checked = true;
+            checkBox23.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox23.Location = new System.Drawing.Point(7, 156);
+            checkBox23.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox23.Name = "checkBox23";
+            checkBox23.Size = new System.Drawing.Size(104, 19);
+            checkBox23.TabIndex = 6;
+            checkBox23.Text = "M(t)- Прогноз";
+            checkBox23.UseVisualStyleBackColor = true;
+            checkBox23.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox24
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(6, 42);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(50, 17);
-            this.checkBox24.TabIndex = 2;
-            this.checkBox24.Text = "M(t)+";
-            this.checkBox24.UseVisualStyleBackColor = true;
-            this.checkBox24.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox24.AutoSize = true;
+            checkBox24.Checked = true;
+            checkBox24.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox24.Location = new System.Drawing.Point(7, 48);
+            checkBox24.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox24.Name = "checkBox24";
+            checkBox24.Size = new System.Drawing.Size(57, 19);
+            checkBox24.TabIndex = 2;
+            checkBox24.Text = "M(t)+";
+            checkBox24.UseVisualStyleBackColor = true;
+            checkBox24.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox25
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(6, 112);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(96, 17);
-            this.checkBox25.TabIndex = 5;
-            this.checkBox25.Text = "M(t)+ Прогноз";
-            this.checkBox25.UseVisualStyleBackColor = true;
-            this.checkBox25.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox25.AutoSize = true;
+            checkBox25.Checked = true;
+            checkBox25.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox25.Location = new System.Drawing.Point(7, 129);
+            checkBox25.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox25.Name = "checkBox25";
+            checkBox25.Size = new System.Drawing.Size(107, 19);
+            checkBox25.TabIndex = 5;
+            checkBox25.Text = "M(t)+ Прогноз";
+            checkBox25.UseVisualStyleBackColor = true;
+            checkBox25.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox26
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(6, 65);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(47, 17);
-            this.checkBox26.TabIndex = 3;
-            this.checkBox26.Text = "M(t)-";
-            this.checkBox26.UseVisualStyleBackColor = true;
-            this.checkBox26.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox26.AutoSize = true;
+            checkBox26.Checked = true;
+            checkBox26.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox26.Location = new System.Drawing.Point(7, 75);
+            checkBox26.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox26.Name = "checkBox26";
+            checkBox26.Size = new System.Drawing.Size(54, 19);
+            checkBox26.TabIndex = 3;
+            checkBox26.Text = "M(t)-";
+            checkBox26.UseVisualStyleBackColor = true;
+            checkBox26.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox27
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(6, 89);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(90, 17);
-            this.checkBox27.TabIndex = 4;
-            this.checkBox27.Text = "M(t) Прогноз";
-            this.checkBox27.UseVisualStyleBackColor = true;
-            this.checkBox27.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox27.AutoSize = true;
+            checkBox27.Checked = true;
+            checkBox27.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox27.Location = new System.Drawing.Point(7, 103);
+            checkBox27.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox27.Name = "checkBox27";
+            checkBox27.Size = new System.Drawing.Size(99, 19);
+            checkBox27.TabIndex = 4;
+            checkBox27.Text = "M(t) Прогноз";
+            checkBox27.UseVisualStyleBackColor = true;
+            checkBox27.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart4
+            // LevelTwoMtChart
             // 
             chartArea4.AxisX.Title = "t";
-            chartArea4.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea4.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea4.AxisY.Title = "M";
-            chartArea4.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea4.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea4.Name = "ChartArea1";
-            this.chart4.ChartAreas.Add(chartArea4);
-            this.chart4.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelTwoMtChart.ChartAreas.Add(chartArea4);
+            LevelTwoMtChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend4.Name = "Legend1";
-            this.chart4.Legends.Add(legend4);
-            this.chart4.Location = new System.Drawing.Point(0, 0);
-            this.chart4.Name = "chart4";
-            this.chart4.Size = new System.Drawing.Size(552, 307);
-            this.chart4.TabIndex = 1;
-            this.chart4.Text = "chart4";
+            LevelTwoMtChart.Legends.Add(legend4);
+            LevelTwoMtChart.Location = new System.Drawing.Point(0, 0);
+            LevelTwoMtChart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelTwoMtChart.Name = "LevelTwoMtChart";
+            LevelTwoMtChart.Size = new System.Drawing.Size(645, 356);
+            LevelTwoMtChart.TabIndex = 1;
+            LevelTwoMtChart.Text = "chart4";
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.tabControl2);
-            this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1147, 621);
-            this.tabPage4.TabIndex = 4;
-            this.tabPage4.Text = "3-й ур.";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            tabPage4.Controls.Add(tabControl2);
+            tabPage4.Location = new System.Drawing.Point(4, 4);
+            tabPage4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new System.Drawing.Size(1340, 719);
+            tabPage4.TabIndex = 4;
+            tabPage4.Text = "3-й ур.";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabControl2
             // 
-            this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Controls.Add(this.tabPage7);
-            this.tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl2.Location = new System.Drawing.Point(0, 0);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1147, 621);
-            this.tabControl2.TabIndex = 4;
+            tabControl2.Controls.Add(tabPage6);
+            tabControl2.Controls.Add(tabPage7);
+            tabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            tabControl2.Location = new System.Drawing.Point(0, 0);
+            tabControl2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabControl2.Name = "tabControl2";
+            tabControl2.SelectedIndex = 0;
+            tabControl2.Size = new System.Drawing.Size(1340, 719);
+            tabControl2.TabIndex = 4;
             // 
             // tabPage6
             // 
-            this.tabPage6.Controls.Add(this.splitContainer9);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1139, 595);
-            this.tabPage6.TabIndex = 0;
-            this.tabPage6.Text = "Связи";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            tabPage6.Controls.Add(splitContainer9);
+            tabPage6.Location = new System.Drawing.Point(4, 24);
+            tabPage6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage6.Size = new System.Drawing.Size(1332, 691);
+            tabPage6.TabIndex = 0;
+            tabPage6.Text = "Связи";
+            tabPage6.UseVisualStyleBackColor = true;
             // 
             // splitContainer9
             // 
-            this.splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer9.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer9.Name = "splitContainer9";
-            this.splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer9.Location = new System.Drawing.Point(4, 3);
+            splitContainer9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer9.Name = "splitContainer9";
+            splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer9.Panel1
             // 
-            this.splitContainer9.Panel1.Controls.Add(this.comboBox2);
-            this.splitContainer9.Panel1.Controls.Add(this.label7);
-            this.splitContainer9.Panel1.Controls.Add(this.listBox_lvl3_2);
-            this.splitContainer9.Panel1.Controls.Add(this.button8);
-            this.splitContainer9.Panel1.Controls.Add(this.label4);
-            this.splitContainer9.Panel1.Controls.Add(this.pictureBox4);
-            this.splitContainer9.Panel1.Controls.Add(this.button7);
-            this.splitContainer9.Panel1MinSize = 150;
+            splitContainer9.Panel1.Controls.Add(LevelThreeBlocksComboBox);
+            splitContainer9.Panel1.Controls.Add(label7);
+            splitContainer9.Panel1.Controls.Add(LevelThreeBlockPointsListBox);
+            splitContainer9.Panel1.Controls.Add(LevelThreeApplySubBlockButton);
+            splitContainer9.Panel1.Controls.Add(label4);
+            splitContainer9.Panel1.Controls.Add(LevelThreePictureBox);
+            splitContainer9.Panel1.Controls.Add(LevelThreeApplyBlockButton);
+            splitContainer9.Panel1MinSize = 150;
             // 
             // splitContainer9.Panel2
             // 
-            this.splitContainer9.Panel2.Controls.Add(this.splitContainer10);
-            this.splitContainer9.Size = new System.Drawing.Size(1133, 589);
-            this.splitContainer9.SplitterDistance = 279;
-            this.splitContainer9.TabIndex = 4;
-            this.splitContainer9.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer9.Panel2.Controls.Add(splitContainer10);
+            splitContainer9.Size = new System.Drawing.Size(1324, 685);
+            splitContainer9.SplitterDistance = 324;
+            splitContainer9.SplitterWidth = 5;
+            splitContainer9.TabIndex = 4;
             // 
-            // comboBox2
+            // LevelThreeBlocksComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(6, 19);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(139, 21);
-            this.comboBox2.TabIndex = 9;
+            LevelThreeBlocksComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            LevelThreeBlocksComboBox.FormattingEnabled = true;
+            LevelThreeBlocksComboBox.Location = new System.Drawing.Point(7, 22);
+            LevelThreeBlocksComboBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeBlocksComboBox.Name = "LevelThreeBlocksComboBox";
+            LevelThreeBlocksComboBox.Size = new System.Drawing.Size(162, 23);
+            LevelThreeBlocksComboBox.TabIndex = 9;
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(970, 3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(160, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Выберите точки для подблока";
+            label7.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            label7.AutoSize = true;
+            label7.Location = new System.Drawing.Point(1134, 3);
+            label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(174, 15);
+            label7.TabIndex = 8;
+            label7.Text = "Выберите точки для подблока";
             // 
-            // listBox_lvl3_2
+            // LevelThreeBlockPointsListBox
             // 
-            this.listBox_lvl3_2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox_lvl3_2.FormattingEnabled = true;
-            this.listBox_lvl3_2.Location = new System.Drawing.Point(990, 19);
-            this.listBox_lvl3_2.Name = "listBox_lvl3_2";
-            this.listBox_lvl3_2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox_lvl3_2.Size = new System.Drawing.Size(139, 225);
-            this.listBox_lvl3_2.TabIndex = 6;
+            LevelThreeBlockPointsListBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            LevelThreeBlockPointsListBox.FormattingEnabled = true;
+            LevelThreeBlockPointsListBox.Location = new System.Drawing.Point(1157, 22);
+            LevelThreeBlockPointsListBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeBlockPointsListBox.Name = "LevelThreeBlockPointsListBox";
+            LevelThreeBlockPointsListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            LevelThreeBlockPointsListBox.Size = new System.Drawing.Size(162, 244);
+            LevelThreeBlockPointsListBox.TabIndex = 6;
             // 
-            // button8
+            // LevelThreeApplySubBlockButton
             // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.Location = new System.Drawing.Point(990, 253);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(139, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Применить";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            LevelThreeApplySubBlockButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            LevelThreeApplySubBlockButton.Location = new System.Drawing.Point(1157, 294);
+            LevelThreeApplySubBlockButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeApplySubBlockButton.Name = "LevelThreeApplySubBlockButton";
+            LevelThreeApplySubBlockButton.Size = new System.Drawing.Size(162, 27);
+            LevelThreeApplySubBlockButton.TabIndex = 7;
+            LevelThreeApplySubBlockButton.Text = "Применить";
+            LevelThreeApplySubBlockButton.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 3);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Выберите блок";
+            label4.AutoSize = true;
+            label4.Location = new System.Drawing.Point(4, 3);
+            label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(91, 15);
+            label4.TabIndex = 5;
+            label4.Text = "Выберите блок";
             // 
-            // pictureBox4
+            // LevelThreePictureBox
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Location = new System.Drawing.Point(332, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(464, 273);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            LevelThreePictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            LevelThreePictureBox.Location = new System.Drawing.Point(387, 3);
+            LevelThreePictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreePictureBox.Name = "LevelThreePictureBox";
+            LevelThreePictureBox.Size = new System.Drawing.Size(543, 317);
+            LevelThreePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            LevelThreePictureBox.TabIndex = 4;
+            LevelThreePictureBox.TabStop = false;
             // 
-            // button7
+            // LevelThreeApplyBlockButton
             // 
-            this.button7.Location = new System.Drawing.Point(6, 46);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(139, 23);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Применить";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            LevelThreeApplyBlockButton.Location = new System.Drawing.Point(7, 53);
+            LevelThreeApplyBlockButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeApplyBlockButton.Name = "LevelThreeApplyBlockButton";
+            LevelThreeApplyBlockButton.Size = new System.Drawing.Size(162, 27);
+            LevelThreeApplyBlockButton.TabIndex = 3;
+            LevelThreeApplyBlockButton.Text = "Применить";
+            LevelThreeApplyBlockButton.UseVisualStyleBackColor = true;
             // 
             // splitContainer10
             // 
-            this.splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer10.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer10.Name = "splitContainer10";
+            splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer10.Location = new System.Drawing.Point(0, 0);
+            splitContainer10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer10.Name = "splitContainer10";
             // 
             // splitContainer10.Panel1
             // 
-            this.splitContainer10.Panel1.Controls.Add(this.dataGridView_lvl3_1);
+            splitContainer10.Panel1.Controls.Add(LevelThreeLinksDataGridView);
             // 
             // splitContainer10.Panel2
             // 
-            this.splitContainer10.Panel2.Controls.Add(this.dataGridView_lvl3_2);
-            this.splitContainer10.Size = new System.Drawing.Size(1133, 306);
-            this.splitContainer10.SplitterDistance = 558;
-            this.splitContainer10.TabIndex = 3;
-            this.splitContainer10.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer10.Panel2.Controls.Add(LevelThreeLinksStateDataGridView);
+            splitContainer10.Size = new System.Drawing.Size(1324, 356);
+            splitContainer10.SplitterDistance = 652;
+            splitContainer10.SplitterWidth = 5;
+            splitContainer10.TabIndex = 3;
             // 
-            // dataGridView_lvl3_1
+            // LevelThreeLinksDataGridView
             // 
-            this.dataGridView_lvl3_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_lvl3_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView_lvl3_1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView_lvl3_1.Name = "dataGridView_lvl3_1";
-            this.dataGridView_lvl3_1.RowHeadersVisible = false;
-            this.dataGridView_lvl3_1.RowHeadersWidth = 51;
-            this.dataGridView_lvl3_1.Size = new System.Drawing.Size(558, 306);
-            this.dataGridView_lvl3_1.TabIndex = 1;
+            LevelThreeLinksDataGridView.AllowUserToAddRows = false;
+            LevelThreeLinksDataGridView.AllowUserToDeleteRows = false;
+            LevelThreeLinksDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.Format = "N4";
+            dataGridViewCellStyle5.NullValue = null;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelThreeLinksDataGridView.DefaultCellStyle = dataGridViewCellStyle5;
+            LevelThreeLinksDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeLinksDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelThreeLinksDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeLinksDataGridView.Name = "LevelThreeLinksDataGridView";
+            LevelThreeLinksDataGridView.RowHeadersVisible = false;
+            LevelThreeLinksDataGridView.RowHeadersWidth = 51;
+            LevelThreeLinksDataGridView.RowTemplate.DefaultCellStyle.NullValue = null;
+            LevelThreeLinksDataGridView.Size = new System.Drawing.Size(652, 356);
+            LevelThreeLinksDataGridView.TabIndex = 1;
             // 
-            // dataGridView_lvl3_2
+            // LevelThreeLinksStateDataGridView
             // 
-            this.dataGridView_lvl3_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_lvl3_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView_lvl3_2.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView_lvl3_2.Name = "dataGridView_lvl3_2";
-            this.dataGridView_lvl3_2.RowHeadersVisible = false;
-            this.dataGridView_lvl3_2.RowHeadersWidth = 51;
-            this.dataGridView_lvl3_2.Size = new System.Drawing.Size(571, 306);
-            this.dataGridView_lvl3_2.TabIndex = 2;
+            LevelThreeLinksStateDataGridView.AllowUserToAddRows = false;
+            LevelThreeLinksStateDataGridView.AllowUserToDeleteRows = false;
+            LevelThreeLinksStateDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.Format = "N4";
+            dataGridViewCellStyle6.NullValue = null;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelThreeLinksStateDataGridView.DefaultCellStyle = dataGridViewCellStyle6;
+            LevelThreeLinksStateDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeLinksStateDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelThreeLinksStateDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeLinksStateDataGridView.Name = "LevelThreeLinksStateDataGridView";
+            LevelThreeLinksStateDataGridView.RowHeadersVisible = false;
+            LevelThreeLinksStateDataGridView.RowHeadersWidth = 51;
+            LevelThreeLinksStateDataGridView.RowTemplate.DefaultCellStyle.NullValue = null;
+            LevelThreeLinksStateDataGridView.Size = new System.Drawing.Size(667, 356);
+            LevelThreeLinksStateDataGridView.TabIndex = 2;
             // 
             // tabPage7
             // 
-            this.tabPage7.Controls.Add(this.splitContainer11);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1139, 595);
-            this.tabPage7.TabIndex = 1;
-            this.tabPage7.Text = "Подблок";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            tabPage7.Controls.Add(splitContainer11);
+            tabPage7.Location = new System.Drawing.Point(4, 24);
+            tabPage7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage7.Size = new System.Drawing.Size(1332, 691);
+            tabPage7.TabIndex = 1;
+            tabPage7.Text = "Подблок";
+            tabPage7.UseVisualStyleBackColor = true;
             // 
             // splitContainer11
             // 
-            this.splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer11.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer11.Name = "splitContainer11";
-            this.splitContainer11.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer11.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer11.Location = new System.Drawing.Point(4, 3);
+            splitContainer11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer11.Name = "splitContainer11";
+            splitContainer11.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer11.Panel1
             // 
-            this.splitContainer11.Panel1.Controls.Add(this.splitContainer13);
-            this.splitContainer11.Panel1MinSize = 150;
+            splitContainer11.Panel1.Controls.Add(splitContainer13);
+            splitContainer11.Panel1MinSize = 150;
             // 
             // splitContainer11.Panel2
             // 
-            this.splitContainer11.Panel2.Controls.Add(this.splitContainer12);
-            this.splitContainer11.Size = new System.Drawing.Size(1133, 589);
-            this.splitContainer11.SplitterDistance = 322;
-            this.splitContainer11.TabIndex = 12;
-            this.splitContainer11.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer11.Panel2.Controls.Add(splitContainer12);
+            splitContainer11.Size = new System.Drawing.Size(1324, 685);
+            splitContainer11.SplitterDistance = 374;
+            splitContainer11.SplitterWidth = 5;
+            splitContainer11.TabIndex = 12;
             // 
             // splitContainer13
             // 
-            this.splitContainer13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer13.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer13.Name = "splitContainer13";
+            splitContainer13.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer13.Location = new System.Drawing.Point(0, 0);
+            splitContainer13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer13.Name = "splitContainer13";
             // 
             // splitContainer13.Panel1
             // 
-            this.splitContainer13.Panel1.Controls.Add(this.groupBox5);
-            this.splitContainer13.Panel1.Controls.Add(this.chart5);
-            this.splitContainer13.Panel1MinSize = 125;
+            splitContainer13.Panel1.Controls.Add(groupBox5);
+            splitContainer13.Panel1.Controls.Add(LevelThreeAmChart);
+            splitContainer13.Panel1MinSize = 125;
             // 
             // splitContainer13.Panel2
             // 
-            this.splitContainer13.Panel2.Controls.Add(this.groupBox6);
-            this.splitContainer13.Panel2.Controls.Add(this.chart6);
-            this.splitContainer13.Panel2MinSize = 125;
-            this.splitContainer13.Size = new System.Drawing.Size(1133, 322);
-            this.splitContainer13.SplitterDistance = 558;
-            this.splitContainer13.TabIndex = 11;
-            this.splitContainer13.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer13.Panel2.Controls.Add(groupBox6);
+            splitContainer13.Panel2.Controls.Add(LevelThreeMtChart);
+            splitContainer13.Panel2MinSize = 125;
+            splitContainer13.Size = new System.Drawing.Size(1324, 374);
+            splitContainer13.SplitterDistance = 651;
+            splitContainer13.SplitterWidth = 5;
+            splitContainer13.TabIndex = 11;
             // 
             // groupBox5
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.Controls.Add(this.checkBox3);
-            this.groupBox5.Controls.Add(this.checkBox28);
-            this.groupBox5.Controls.Add(this.checkBox29);
-            this.groupBox5.Controls.Add(this.checkBox30);
-            this.groupBox5.Controls.Add(this.checkBox31);
-            this.groupBox5.Controls.Add(this.checkBox32);
-            this.groupBox5.Location = new System.Drawing.Point(441, 159);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(115, 163);
-            this.groupBox5.TabIndex = 9;
-            this.groupBox5.TabStop = false;
+            groupBox5.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox5.Controls.Add(checkBox3);
+            groupBox5.Controls.Add(checkBox28);
+            groupBox5.Controls.Add(checkBox29);
+            groupBox5.Controls.Add(checkBox30);
+            groupBox5.Controls.Add(checkBox31);
+            groupBox5.Controls.Add(checkBox32);
+            groupBox5.Location = new System.Drawing.Point(514, 186);
+            groupBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox5.Size = new System.Drawing.Size(134, 188);
+            groupBox5.TabIndex = 9;
+            groupBox5.TabStop = false;
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 19);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(47, 17);
-            this.checkBox3.TabIndex = 1;
-            this.checkBox3.Text = "a(M)";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox3.AutoSize = true;
+            checkBox3.Checked = true;
+            checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox3.Location = new System.Drawing.Point(7, 22);
+            checkBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new System.Drawing.Size(51, 19);
+            checkBox3.TabIndex = 1;
+            checkBox3.Text = "a(M)";
+            checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox28
             // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(6, 135);
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Size = new System.Drawing.Size(96, 17);
-            this.checkBox28.TabIndex = 6;
-            this.checkBox28.Text = "a(M)- Прогноз";
-            this.checkBox28.UseVisualStyleBackColor = true;
-            this.checkBox28.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox28.AutoSize = true;
+            checkBox28.Checked = true;
+            checkBox28.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox28.Location = new System.Drawing.Point(7, 156);
+            checkBox28.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox28.Name = "checkBox28";
+            checkBox28.Size = new System.Drawing.Size(106, 19);
+            checkBox28.TabIndex = 6;
+            checkBox28.Text = "a(M)- Прогноз";
+            checkBox28.UseVisualStyleBackColor = true;
+            checkBox28.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox29
             // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(6, 42);
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Size = new System.Drawing.Size(53, 17);
-            this.checkBox29.TabIndex = 2;
-            this.checkBox29.Text = "a(M)+";
-            this.checkBox29.UseVisualStyleBackColor = true;
-            this.checkBox29.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox29.AutoSize = true;
+            checkBox29.Checked = true;
+            checkBox29.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox29.Location = new System.Drawing.Point(7, 48);
+            checkBox29.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox29.Name = "checkBox29";
+            checkBox29.Size = new System.Drawing.Size(59, 19);
+            checkBox29.TabIndex = 2;
+            checkBox29.Text = "a(M)+";
+            checkBox29.UseVisualStyleBackColor = true;
+            checkBox29.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox30
             // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(6, 112);
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Size = new System.Drawing.Size(99, 17);
-            this.checkBox30.TabIndex = 5;
-            this.checkBox30.Text = "a(M)+ Прогноз";
-            this.checkBox30.UseVisualStyleBackColor = true;
-            this.checkBox30.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox30.AutoSize = true;
+            checkBox30.Checked = true;
+            checkBox30.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox30.Location = new System.Drawing.Point(7, 129);
+            checkBox30.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox30.Name = "checkBox30";
+            checkBox30.Size = new System.Drawing.Size(109, 19);
+            checkBox30.TabIndex = 5;
+            checkBox30.Text = "a(M)+ Прогноз";
+            checkBox30.UseVisualStyleBackColor = true;
+            checkBox30.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox31
             // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(6, 65);
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Size = new System.Drawing.Size(50, 17);
-            this.checkBox31.TabIndex = 3;
-            this.checkBox31.Text = "a(M)-";
-            this.checkBox31.UseVisualStyleBackColor = true;
-            this.checkBox31.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox31.AutoSize = true;
+            checkBox31.Checked = true;
+            checkBox31.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox31.Location = new System.Drawing.Point(7, 75);
+            checkBox31.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox31.Name = "checkBox31";
+            checkBox31.Size = new System.Drawing.Size(56, 19);
+            checkBox31.TabIndex = 3;
+            checkBox31.Text = "a(M)-";
+            checkBox31.UseVisualStyleBackColor = true;
+            checkBox31.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox32
             // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(6, 89);
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Size = new System.Drawing.Size(93, 17);
-            this.checkBox32.TabIndex = 4;
-            this.checkBox32.Text = "a(M) Прогноз";
-            this.checkBox32.UseVisualStyleBackColor = true;
-            this.checkBox32.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox32.AutoSize = true;
+            checkBox32.Checked = true;
+            checkBox32.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox32.Location = new System.Drawing.Point(7, 103);
+            checkBox32.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox32.Name = "checkBox32";
+            checkBox32.Size = new System.Drawing.Size(101, 19);
+            checkBox32.TabIndex = 4;
+            checkBox32.Text = "a(M) Прогноз";
+            checkBox32.UseVisualStyleBackColor = true;
+            checkBox32.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart5
+            // LevelThreeAmChart
             // 
             chartArea5.AxisX.Title = "M";
-            chartArea5.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea5.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea5.AxisY.Title = "a";
-            chartArea5.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea5.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea5.Name = "ChartArea1";
-            this.chart5.ChartAreas.Add(chartArea5);
-            this.chart5.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeAmChart.ChartAreas.Add(chartArea5);
+            LevelThreeAmChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend5.Name = "Legend1";
-            this.chart5.Legends.Add(legend5);
-            this.chart5.Location = new System.Drawing.Point(0, 0);
-            this.chart5.Name = "chart5";
-            this.chart5.Size = new System.Drawing.Size(558, 322);
-            this.chart5.TabIndex = 1;
-            this.chart5.Text = "chart5";
+            LevelThreeAmChart.Legends.Add(legend5);
+            LevelThreeAmChart.Location = new System.Drawing.Point(0, 0);
+            LevelThreeAmChart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeAmChart.Name = "LevelThreeAmChart";
+            LevelThreeAmChart.Size = new System.Drawing.Size(651, 374);
+            LevelThreeAmChart.TabIndex = 1;
+            LevelThreeAmChart.Text = "chart5";
             // 
             // groupBox6
             // 
-            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox6.Controls.Add(this.checkBox33);
-            this.groupBox6.Controls.Add(this.checkBox34);
-            this.groupBox6.Controls.Add(this.checkBox35);
-            this.groupBox6.Controls.Add(this.checkBox36);
-            this.groupBox6.Controls.Add(this.checkBox37);
-            this.groupBox6.Controls.Add(this.checkBox38);
-            this.groupBox6.Location = new System.Drawing.Point(453, 159);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(118, 163);
-            this.groupBox6.TabIndex = 10;
-            this.groupBox6.TabStop = false;
+            groupBox6.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            groupBox6.Controls.Add(checkBox33);
+            groupBox6.Controls.Add(checkBox34);
+            groupBox6.Controls.Add(checkBox35);
+            groupBox6.Controls.Add(checkBox36);
+            groupBox6.Controls.Add(checkBox37);
+            groupBox6.Controls.Add(checkBox38);
+            groupBox6.Location = new System.Drawing.Point(496, 186);
+            groupBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            groupBox6.Size = new System.Drawing.Size(138, 188);
+            groupBox6.TabIndex = 10;
+            groupBox6.TabStop = false;
             // 
             // checkBox33
             // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(6, 19);
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(44, 17);
-            this.checkBox33.TabIndex = 1;
-            this.checkBox33.Text = "M(t)";
-            this.checkBox33.UseVisualStyleBackColor = true;
-            this.checkBox33.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox33.AutoSize = true;
+            checkBox33.Checked = true;
+            checkBox33.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox33.Location = new System.Drawing.Point(7, 22);
+            checkBox33.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox33.Name = "checkBox33";
+            checkBox33.Size = new System.Drawing.Size(49, 19);
+            checkBox33.TabIndex = 1;
+            checkBox33.Text = "M(t)";
+            checkBox33.UseVisualStyleBackColor = true;
+            checkBox33.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox34
             // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(6, 135);
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Size = new System.Drawing.Size(93, 17);
-            this.checkBox34.TabIndex = 6;
-            this.checkBox34.Text = "M(t)- Прогноз";
-            this.checkBox34.UseVisualStyleBackColor = true;
-            this.checkBox34.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox34.AutoSize = true;
+            checkBox34.Checked = true;
+            checkBox34.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox34.Location = new System.Drawing.Point(7, 156);
+            checkBox34.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox34.Name = "checkBox34";
+            checkBox34.Size = new System.Drawing.Size(104, 19);
+            checkBox34.TabIndex = 6;
+            checkBox34.Text = "M(t)- Прогноз";
+            checkBox34.UseVisualStyleBackColor = true;
+            checkBox34.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox35
             // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(6, 42);
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Size = new System.Drawing.Size(50, 17);
-            this.checkBox35.TabIndex = 2;
-            this.checkBox35.Text = "M(t)+";
-            this.checkBox35.UseVisualStyleBackColor = true;
-            this.checkBox35.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox35.AutoSize = true;
+            checkBox35.Checked = true;
+            checkBox35.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox35.Location = new System.Drawing.Point(7, 48);
+            checkBox35.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox35.Name = "checkBox35";
+            checkBox35.Size = new System.Drawing.Size(57, 19);
+            checkBox35.TabIndex = 2;
+            checkBox35.Text = "M(t)+";
+            checkBox35.UseVisualStyleBackColor = true;
+            checkBox35.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox36
             // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(6, 112);
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(96, 17);
-            this.checkBox36.TabIndex = 5;
-            this.checkBox36.Text = "M(t)+ Прогноз";
-            this.checkBox36.UseVisualStyleBackColor = true;
-            this.checkBox36.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox36.AutoSize = true;
+            checkBox36.Checked = true;
+            checkBox36.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox36.Location = new System.Drawing.Point(7, 129);
+            checkBox36.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox36.Name = "checkBox36";
+            checkBox36.Size = new System.Drawing.Size(107, 19);
+            checkBox36.TabIndex = 5;
+            checkBox36.Text = "M(t)+ Прогноз";
+            checkBox36.UseVisualStyleBackColor = true;
+            checkBox36.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox37
             // 
-            this.checkBox37.AutoSize = true;
-            this.checkBox37.Location = new System.Drawing.Point(6, 65);
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(47, 17);
-            this.checkBox37.TabIndex = 3;
-            this.checkBox37.Text = "M(t)-";
-            this.checkBox37.UseVisualStyleBackColor = true;
-            this.checkBox37.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox37.AutoSize = true;
+            checkBox37.Checked = true;
+            checkBox37.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox37.Location = new System.Drawing.Point(7, 75);
+            checkBox37.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox37.Name = "checkBox37";
+            checkBox37.Size = new System.Drawing.Size(54, 19);
+            checkBox37.TabIndex = 3;
+            checkBox37.Text = "M(t)-";
+            checkBox37.UseVisualStyleBackColor = true;
+            checkBox37.CheckedChanged += chartCheckBox_Checked;
             // 
             // checkBox38
             // 
-            this.checkBox38.AutoSize = true;
-            this.checkBox38.Location = new System.Drawing.Point(6, 89);
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(90, 17);
-            this.checkBox38.TabIndex = 4;
-            this.checkBox38.Text = "M(t) Прогноз";
-            this.checkBox38.UseVisualStyleBackColor = true;
-            this.checkBox38.CheckedChanged += new System.EventHandler(this.chartCheckBox_Checked);
+            checkBox38.AutoSize = true;
+            checkBox38.Checked = true;
+            checkBox38.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBox38.Location = new System.Drawing.Point(7, 103);
+            checkBox38.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            checkBox38.Name = "checkBox38";
+            checkBox38.Size = new System.Drawing.Size(99, 19);
+            checkBox38.TabIndex = 4;
+            checkBox38.Text = "M(t) Прогноз";
+            checkBox38.UseVisualStyleBackColor = true;
+            checkBox38.CheckedChanged += chartCheckBox_Checked;
             // 
-            // chart6
+            // LevelThreeMtChart
             // 
             chartArea6.AxisX.Title = "M";
-            chartArea6.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea6.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea6.AxisY.Title = "a";
-            chartArea6.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea6.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
             chartArea6.Name = "ChartArea1";
-            this.chart6.ChartAreas.Add(chartArea6);
-            this.chart6.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeMtChart.ChartAreas.Add(chartArea6);
+            LevelThreeMtChart.Dock = System.Windows.Forms.DockStyle.Fill;
             legend6.Name = "Legend1";
-            this.chart6.Legends.Add(legend6);
-            this.chart6.Location = new System.Drawing.Point(0, 0);
-            this.chart6.Name = "chart6";
-            this.chart6.Size = new System.Drawing.Size(571, 322);
-            this.chart6.TabIndex = 10;
-            this.chart6.Text = "chart6";
+            LevelThreeMtChart.Legends.Add(legend6);
+            LevelThreeMtChart.Location = new System.Drawing.Point(0, 0);
+            LevelThreeMtChart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeMtChart.Name = "LevelThreeMtChart";
+            LevelThreeMtChart.Size = new System.Drawing.Size(668, 374);
+            LevelThreeMtChart.TabIndex = 10;
+            LevelThreeMtChart.Text = "chart6";
             // 
             // splitContainer12
             // 
-            this.splitContainer12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer12.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer12.Name = "splitContainer12";
+            splitContainer12.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer12.Location = new System.Drawing.Point(0, 0);
+            splitContainer12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer12.Name = "splitContainer12";
             // 
             // splitContainer12.Panel1
             // 
-            this.splitContainer12.Panel1.Controls.Add(this.dataGridView_lvl3_3);
+            splitContainer12.Panel1.Controls.Add(LevelThreeSubBlockDataGridView);
             // 
             // splitContainer12.Panel2
             // 
-            this.splitContainer12.Panel2.Controls.Add(this.dataGridView_lvl3_4);
-            this.splitContainer12.Size = new System.Drawing.Size(1133, 263);
-            this.splitContainer12.SplitterDistance = 558;
-            this.splitContainer12.TabIndex = 0;
-            this.splitContainer12.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer12.Panel2.Controls.Add(LevelThreeSubBlockCalculationsDataGridView);
+            splitContainer12.Size = new System.Drawing.Size(1324, 306);
+            splitContainer12.SplitterDistance = 651;
+            splitContainer12.SplitterWidth = 5;
+            splitContainer12.TabIndex = 0;
             // 
-            // dataGridView_lvl3_3
+            // LevelThreeSubBlockDataGridView
             // 
-            this.dataGridView_lvl3_3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_lvl3_3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView_lvl3_3.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView_lvl3_3.Name = "dataGridView_lvl3_3";
-            this.dataGridView_lvl3_3.RowHeadersVisible = false;
-            this.dataGridView_lvl3_3.RowHeadersWidth = 51;
-            this.dataGridView_lvl3_3.Size = new System.Drawing.Size(558, 263);
-            this.dataGridView_lvl3_3.TabIndex = 11;
+            LevelThreeSubBlockDataGridView.AllowUserToAddRows = false;
+            LevelThreeSubBlockDataGridView.AllowUserToDeleteRows = false;
+            LevelThreeSubBlockDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle7.Format = "N4";
+            dataGridViewCellStyle7.NullValue = null;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelThreeSubBlockDataGridView.DefaultCellStyle = dataGridViewCellStyle7;
+            LevelThreeSubBlockDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeSubBlockDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelThreeSubBlockDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeSubBlockDataGridView.Name = "LevelThreeSubBlockDataGridView";
+            LevelThreeSubBlockDataGridView.RowHeadersVisible = false;
+            LevelThreeSubBlockDataGridView.RowHeadersWidth = 51;
+            LevelThreeSubBlockDataGridView.Size = new System.Drawing.Size(651, 306);
+            LevelThreeSubBlockDataGridView.TabIndex = 11;
             // 
-            // dataGridView_lvl3_4
+            // LevelThreeSubBlockCalculationsDataGridView
             // 
-            this.dataGridView_lvl3_4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_lvl3_4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView_lvl3_4.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView_lvl3_4.Name = "dataGridView_lvl3_4";
-            this.dataGridView_lvl3_4.RowHeadersVisible = false;
-            this.dataGridView_lvl3_4.RowHeadersWidth = 51;
-            this.dataGridView_lvl3_4.Size = new System.Drawing.Size(571, 263);
-            this.dataGridView_lvl3_4.TabIndex = 12;
+            LevelThreeSubBlockCalculationsDataGridView.AllowUserToAddRows = false;
+            LevelThreeSubBlockCalculationsDataGridView.AllowUserToDeleteRows = false;
+            LevelThreeSubBlockCalculationsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.Format = "N4";
+            dataGridViewCellStyle8.NullValue = null;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            LevelThreeSubBlockCalculationsDataGridView.DefaultCellStyle = dataGridViewCellStyle8;
+            LevelThreeSubBlockCalculationsDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelThreeSubBlockCalculationsDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelThreeSubBlockCalculationsDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelThreeSubBlockCalculationsDataGridView.Name = "LevelThreeSubBlockCalculationsDataGridView";
+            LevelThreeSubBlockCalculationsDataGridView.RowHeadersVisible = false;
+            LevelThreeSubBlockCalculationsDataGridView.RowHeadersWidth = 51;
+            LevelThreeSubBlockCalculationsDataGridView.Size = new System.Drawing.Size(668, 306);
+            LevelThreeSubBlockCalculationsDataGridView.TabIndex = 12;
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.splitContainer8);
-            this.tabPage5.Location = new System.Drawing.Point(4, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1147, 621);
-            this.tabPage5.TabIndex = 3;
-            this.tabPage5.Text = "4-й ур.";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            tabPage5.Controls.Add(splitContainer8);
+            tabPage5.Location = new System.Drawing.Point(4, 4);
+            tabPage5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Size = new System.Drawing.Size(1340, 719);
+            tabPage5.TabIndex = 3;
+            tabPage5.Text = "4-й ур.";
+            tabPage5.UseVisualStyleBackColor = true;
             // 
             // splitContainer8
             // 
-            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer8.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer8.Name = "splitContainer8";
-            this.splitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer8.Location = new System.Drawing.Point(0, 0);
+            splitContainer8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer8.Name = "splitContainer8";
+            splitContainer8.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer8.Panel1
             // 
-            this.splitContainer8.Panel1.Controls.Add(this.button6);
-            this.splitContainer8.Panel1.Controls.Add(this.label5);
-            this.splitContainer8.Panel1.Controls.Add(this.listBox3);
-            this.splitContainer8.Panel1.Controls.Add(this.chart_lvl4);
-            this.splitContainer8.Panel1.Controls.Add(this.pictureBox3);
-            this.splitContainer8.Panel1MinSize = 150;
+            splitContainer8.Panel1.Controls.Add(LevelFourApplyButton);
+            splitContainer8.Panel1.Controls.Add(label5);
+            splitContainer8.Panel1.Controls.Add(LevelFourPointsListBox);
+            splitContainer8.Panel1.Controls.Add(LevelFourHtChart);
+            splitContainer8.Panel1.Controls.Add(LevelFourPictureBox);
+            splitContainer8.Panel1MinSize = 150;
             // 
             // splitContainer8.Panel2
             // 
-            this.splitContainer8.Panel2.Controls.Add(this.dataGridView5);
-            this.splitContainer8.Size = new System.Drawing.Size(1147, 621);
-            this.splitContainer8.SplitterDistance = 313;
-            this.splitContainer8.TabIndex = 0;
-            this.splitContainer8.DoubleClick += new System.EventHandler(this.splitContainer_DoubleClick);
+            splitContainer8.Panel2.Controls.Add(LevelFourDataGridView);
+            splitContainer8.Size = new System.Drawing.Size(1340, 719);
+            splitContainer8.SplitterDistance = 362;
+            splitContainer8.SplitterWidth = 5;
+            splitContainer8.TabIndex = 0;
             // 
-            // button6
+            // LevelFourApplyButton
             // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button6.Location = new System.Drawing.Point(3, 287);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 23);
-            this.button6.TabIndex = 12;
-            this.button6.Text = "Применить";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            LevelFourApplyButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            LevelFourApplyButton.Location = new System.Drawing.Point(4, 332);
+            LevelFourApplyButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelFourApplyButton.Name = "LevelFourApplyButton";
+            LevelFourApplyButton.Size = new System.Drawing.Size(141, 27);
+            LevelFourApplyButton.TabIndex = 12;
+            LevelFourApplyButton.Text = "Применить";
+            LevelFourApplyButton.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 3);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Выберите точки:";
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(4, 3);
+            label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(99, 15);
+            label5.TabIndex = 11;
+            label5.Text = "Выберите точки:";
             // 
-            // listBox3
+            // LevelFourPointsListBox
             // 
-            this.listBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(3, 20);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox3.Size = new System.Drawing.Size(121, 264);
-            this.listBox3.TabIndex = 10;
+            LevelFourPointsListBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left;
+            LevelFourPointsListBox.FormattingEnabled = true;
+            LevelFourPointsListBox.Location = new System.Drawing.Point(4, 23);
+            LevelFourPointsListBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelFourPointsListBox.Name = "LevelFourPointsListBox";
+            LevelFourPointsListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            LevelFourPointsListBox.Size = new System.Drawing.Size(140, 304);
+            LevelFourPointsListBox.TabIndex = 10;
             // 
-            // chart_lvl4
+            // LevelFourHtChart
             // 
-            this.chart_lvl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            LevelFourHtChart.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             chartArea7.Name = "ChartArea1";
-            this.chart_lvl4.ChartAreas.Add(chartArea7);
+            LevelFourHtChart.ChartAreas.Add(chartArea7);
             legend7.Name = "Legend1";
-            this.chart_lvl4.Legends.Add(legend7);
-            this.chart_lvl4.Location = new System.Drawing.Point(570, 3);
-            this.chart_lvl4.Name = "chart_lvl4";
-            this.chart_lvl4.Size = new System.Drawing.Size(570, 304);
-            this.chart_lvl4.TabIndex = 1;
-            this.chart_lvl4.Text = "chart5";
+            LevelFourHtChart.Legends.Add(legend7);
+            LevelFourHtChart.Location = new System.Drawing.Point(667, 3);
+            LevelFourHtChart.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelFourHtChart.Name = "LevelFourHtChart";
+            LevelFourHtChart.Size = new System.Drawing.Size(665, 352);
+            LevelFourHtChart.TabIndex = 1;
+            LevelFourHtChart.Text = "chart5";
             // 
-            // pictureBox3
+            // LevelFourPictureBox
             // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Location = new System.Drawing.Point(130, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(438, 309);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            LevelFourPictureBox.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            LevelFourPictureBox.Location = new System.Drawing.Point(152, 0);
+            LevelFourPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelFourPictureBox.Name = "LevelFourPictureBox";
+            LevelFourPictureBox.Size = new System.Drawing.Size(513, 358);
+            LevelFourPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            LevelFourPictureBox.TabIndex = 0;
+            LevelFourPictureBox.TabStop = false;
             // 
-            // dataGridView5
+            // LevelFourDataGridView
             // 
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView5.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.RowHeadersWidth = 51;
-            this.dataGridView5.Size = new System.Drawing.Size(1147, 304);
-            this.dataGridView5.TabIndex = 0;
+            LevelFourDataGridView.AllowUserToAddRows = false;
+            LevelFourDataGridView.AllowUserToDeleteRows = false;
+            LevelFourDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            LevelFourDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LevelFourDataGridView.Location = new System.Drawing.Point(0, 0);
+            LevelFourDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LevelFourDataGridView.Name = "LevelFourDataGridView";
+            LevelFourDataGridView.RowHeadersVisible = false;
+            LevelFourDataGridView.RowHeadersWidth = 51;
+            LevelFourDataGridView.Size = new System.Drawing.Size(1340, 352);
+            LevelFourDataGridView.TabIndex = 0;
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 650);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1155, 22);
-            this.statusStrip1.TabIndex = 1;
-            this.statusStrip1.Text = "statusStrip1";
+            statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripStatusLabel1 });
+            statusStrip1.Location = new System.Drawing.Point(0, 753);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            statusStrip1.Size = new System.Drawing.Size(1348, 22);
+            statusStrip1.TabIndex = 1;
+            statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1155, 672);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.tabControl1);
-            this.DoubleBuffered = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(1154, 671);
-            this.Name = "Form1";
-            this.Text = "Курсовая работа. Архипов В.О., СГУГиТ 2022";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Resize += new System.EventHandler(this.Form1_Resize);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel1.PerformLayout();
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.splitContainer4.Panel1.ResumeLayout(false);
-            this.splitContainer4.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            this.splitContainer5.Panel1.ResumeLayout(false);
-            this.splitContainer5.Panel1.PerformLayout();
-            this.splitContainer5.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
-            this.splitContainer5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.splitContainer6.Panel1.ResumeLayout(false);
-            this.splitContainer6.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer6)).EndInit();
-            this.splitContainer6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            this.splitContainer7.Panel1.ResumeLayout(false);
-            this.splitContainer7.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).EndInit();
-            this.splitContainer7.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabControl2.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
-            this.splitContainer9.Panel1.ResumeLayout(false);
-            this.splitContainer9.Panel1.PerformLayout();
-            this.splitContainer9.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer9)).EndInit();
-            this.splitContainer9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.splitContainer10.Panel1.ResumeLayout(false);
-            this.splitContainer10.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer10)).EndInit();
-            this.splitContainer10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_2)).EndInit();
-            this.tabPage7.ResumeLayout(false);
-            this.splitContainer11.Panel1.ResumeLayout(false);
-            this.splitContainer11.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).EndInit();
-            this.splitContainer11.ResumeLayout(false);
-            this.splitContainer13.Panel1.ResumeLayout(false);
-            this.splitContainer13.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer13)).EndInit();
-            this.splitContainer13.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart5)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart6)).EndInit();
-            this.splitContainer12.Panel1.ResumeLayout(false);
-            this.splitContainer12.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer12)).EndInit();
-            this.splitContainer12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_lvl3_4)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.splitContainer8.Panel1.ResumeLayout(false);
-            this.splitContainer8.Panel1.PerformLayout();
-            this.splitContainer8.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).EndInit();
-            this.splitContainer8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_lvl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1348, 775);
+            Controls.Add(statusStrip1);
+            Controls.Add(tabControl1);
+            DoubleBuffered = true;
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            MinimumSize = new System.Drawing.Size(1344, 768);
+            Name = "Form1";
+            Text = "Курсовая работа. Архипов В.О., СГУГиТ 2022";
+            SizeChanged += Form1_Resize;
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel1.PerformLayout();
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)InitialPictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)InitialDataGridView).EndInit();
+            tabPage2.ResumeLayout(false);
+            splitContainer2.Panel1.ResumeLayout(false);
+            splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+            splitContainer2.ResumeLayout(false);
+            splitContainer3.Panel1.ResumeLayout(false);
+            splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
+            splitContainer3.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelOneAmChart).EndInit();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelOneMtChart).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelOneBlockCalculationsDataGridView).EndInit();
+            tabPage3.ResumeLayout(false);
+            splitContainer4.Panel1.ResumeLayout(false);
+            splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).EndInit();
+            splitContainer4.ResumeLayout(false);
+            splitContainer5.Panel1.ResumeLayout(false);
+            splitContainer5.Panel1.PerformLayout();
+            splitContainer5.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer5).EndInit();
+            splitContainer5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelTwoPictureBox).EndInit();
+            splitContainer6.Panel1.ResumeLayout(false);
+            splitContainer6.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer6).EndInit();
+            splitContainer6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelTwoBlockDataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoBlockCalculationsDataGridView).EndInit();
+            splitContainer7.Panel1.ResumeLayout(false);
+            splitContainer7.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer7).EndInit();
+            splitContainer7.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoAmChart).EndInit();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelTwoMtChart).EndInit();
+            tabPage4.ResumeLayout(false);
+            tabControl2.ResumeLayout(false);
+            tabPage6.ResumeLayout(false);
+            splitContainer9.Panel1.ResumeLayout(false);
+            splitContainer9.Panel1.PerformLayout();
+            splitContainer9.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer9).EndInit();
+            splitContainer9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelThreePictureBox).EndInit();
+            splitContainer10.Panel1.ResumeLayout(false);
+            splitContainer10.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer10).EndInit();
+            splitContainer10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelThreeLinksDataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeLinksStateDataGridView).EndInit();
+            tabPage7.ResumeLayout(false);
+            splitContainer11.Panel1.ResumeLayout(false);
+            splitContainer11.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer11).EndInit();
+            splitContainer11.ResumeLayout(false);
+            splitContainer13.Panel1.ResumeLayout(false);
+            splitContainer13.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer13).EndInit();
+            splitContainer13.ResumeLayout(false);
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeAmChart).EndInit();
+            groupBox6.ResumeLayout(false);
+            groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeMtChart).EndInit();
+            splitContainer12.Panel1.ResumeLayout(false);
+            splitContainer12.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer12).EndInit();
+            splitContainer12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelThreeSubBlockDataGridView).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelThreeSubBlockCalculationsDataGridView).EndInit();
+            tabPage5.ResumeLayout(false);
+            splitContainer8.Panel1.ResumeLayout(false);
+            splitContainer8.Panel1.PerformLayout();
+            splitContainer8.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer8).EndInit();
+            splitContainer8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LevelFourHtChart).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelFourPictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LevelFourDataGridView).EndInit();
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
@@ -1802,23 +2023,21 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox InitialPictureBox;
+        private System.Windows.Forms.DataGridView InitialDataGridView;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ConnectDbButton;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelOneAmChart;
+        private System.Windows.Forms.TextBox SmoothingFactorTextBox;
+        private System.Windows.Forms.TextBox AccuracyTextBox;
+        private System.Windows.Forms.Button ApplyButton;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.SplitContainer splitContainer3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelOneMtChart;
+        private System.Windows.Forms.DataGridView LevelOneBlockCalculationsDataGridView;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox9;
         private System.Windows.Forms.CheckBox checkBox8;
@@ -1835,12 +2054,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.SplitContainer splitContainer5;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart4;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
+        private System.Windows.Forms.PictureBox LevelTwoPictureBox;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelTwoMtChart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelTwoAmChart;
         private System.Windows.Forms.SplitContainer splitContainer6;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridView LevelTwoBlockDataGridView;
+        private System.Windows.Forms.DataGridView LevelTwoBlockCalculationsDataGridView;
         private System.Windows.Forms.SplitContainer splitContainer7;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.CheckBox checkBox16;
@@ -1858,31 +2077,28 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox27;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.SplitContainer splitContainer8;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_lvl4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView dataGridView5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelFourHtChart;
+        private System.Windows.Forms.PictureBox LevelFourPictureBox;
+        private System.Windows.Forms.DataGridView LevelFourDataGridView;
+        private System.Windows.Forms.Button RemoveLineButton;
+        private System.Windows.Forms.Button AddLineButton;
+        private System.Windows.Forms.Button LevelTwoAddBlockButton;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ListBox LevelTwoPointsListBox;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.DataGridView dataGridView_lvl3_1;
-        private System.Windows.Forms.DataGridView dataGridView_lvl3_2;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.DataGridView LevelThreeLinksDataGridView;
+        private System.Windows.Forms.DataGridView LevelThreeLinksStateDataGridView;
+        private System.Windows.Forms.Button LevelThreeApplyBlockButton;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.SplitContainer splitContainer9;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.SplitContainer splitContainer10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ListBox listBox_lvl3_2;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.ListBox LevelThreeBlockPointsListBox;
+        private System.Windows.Forms.Button LevelThreeApplySubBlockButton;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox LevelThreePictureBox;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.CheckBox checkBox33;
         private System.Windows.Forms.CheckBox checkBox34;
@@ -1890,7 +2106,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox36;
         private System.Windows.Forms.CheckBox checkBox37;
         private System.Windows.Forms.CheckBox checkBox38;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart6;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelThreeMtChart;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox28;
@@ -1898,19 +2114,22 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox30;
         private System.Windows.Forms.CheckBox checkBox31;
         private System.Windows.Forms.CheckBox checkBox32;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart5;
-        private System.Windows.Forms.DataGridView dataGridView_lvl3_3;
+        private System.Windows.Forms.DataVisualization.Charting.Chart LevelThreeAmChart;
+        private System.Windows.Forms.DataGridView LevelThreeSubBlockDataGridView;
         private System.Windows.Forms.SplitContainer splitContainer11;
         private System.Windows.Forms.SplitContainer splitContainer12;
-        private System.Windows.Forms.DataGridView dataGridView_lvl3_4;
+        private System.Windows.Forms.DataGridView LevelThreeSubBlockCalculationsDataGridView;
         private System.Windows.Forms.SplitContainer splitContainer13;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox TablesComboBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox LevelThreeBlocksComboBox;
+        private System.Windows.Forms.ComboBox LevelTwoBlocksComboBox;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button LevelFourApplyButton;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ListBox LevelFourPointsListBox;
     }
 }
 
